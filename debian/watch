@@ -1,0 +1,3 @@
+version=3
+ftp://ftp.kde.org/pub/kde/unstable/plasma/([\d\.]*)/kdeplasma-addons-([\d\.]*).tar.xz
+ftp://ftp.kde.org/pub/kde/stable/plasma/([\d\.]*)/kdeplasma-addons-([\d\.]*).tar.xz

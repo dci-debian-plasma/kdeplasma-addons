@@ -1,0 +1,6 @@
+usr/lib/*/qt5/plugins/kcm_krunner_dictionary.so
+usr/lib/*/qt5/plugins/krunner_converter.so
+usr/lib/*/qt5/plugins/krunner_dictionary.so
+usr/share/kservices5/plasma-runner-converter.desktop
+usr/share/kservices5/plasma-runner-dictionary.desktop
+usr/share/kservices5/plasma-runner-dictionary_config.desktop

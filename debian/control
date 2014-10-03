@@ -1,0 +1,148 @@
+Source: kdeplasma-addons
+Section: utils
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               extra-cmake-modules,
+               kio-dev (>= 5.2.0),
+               libboost1.55-dev,
+               libglib2.0-dev,
+               libgee-dev,
+               libgio3.0-cil-dev,
+               libibus-1.0-dev,
+               libkf5config-dev (>= 5.2.0),
+               libkf5configwidgets-dev (>= 5.2.0),
+               libkf5coreaddons-dev (>= 5.2.0),
+               libkf5i18n-dev (>= 5.2.0),
+               libkf5kcmutils-dev (>= 5.2.0),
+               libkf5kdelibs4support-dev (>= 5.2.0),
+               libkf5runner-dev (>= 5.2.0),
+               libkf5service-dev (>= 5.2.0),
+               libkf5unitconversion-dev (>= 5.2.0),
+               pkg-kde-tools,
+               plasma-framework-dev,
+               scim-dev
+Standards-Version: 3.9.5
+XS-Testsuite: autopkgtest
+Homepage: http://plasma.kde.org/
+X-Vcs-Debian-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/plasma/kdeplasma-addons.git
+X-Vcs-Debian-Git: git://anonscm.debian.org/pkg-kde/plasma/kdeplasma-addons.git
+
+Package: kdeplasma-addons
+Architecture: all
+Section: kde
+Depends: kdeplasma-addons-data (= ${source:Version}),
+         plasma-runners-addons (>= ${source:Version}),
+         plasma-wallpapers-addons (>= ${source:Version}),
+         plasma-widgets-addons (>= ${source:Version}),
+         ${misc:Depends}
+Description: addons for Plasma 5
+ The KDE Plasma addons module is a collection of additional Plasma 5
+ data engines, widgets and krunner plugins. It is part of
+ the official KDE distribution.
+ .
+ This package is a metapackage that installs all the widgets, data
+ engines and krunner plugins from the KDE Plasma addons module.
+ 
+Package: kdeplasma-addons-data
+Architecture: all
+Multi-Arch: foreign
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: locale files for kdeplasma-addons
+ The KDE Plasma addons module is a collection of additional Plasma 5
+ data engines, widgets and krunner plugins. It is part of
+ the official KDE distribution.
+ .
+ This package contains locale files for KDE Plasma addons module.
+
+Package: plasma-widgets-addons
+Architecture: any
+Section: kde
+Depends: plasma-dataengines-addons (= ${binary:Version}),        
+         ${misc:Depends},
+         ${shlibs:Depends}
+Suggests: plasma-widget-kimpanel
+Description: additional widgets for Plasma 5
+ This package contains additional Plasma 5 widgets shipped in the Plasma
+ addons module. Install it if you want a variety of widgets on your Plasma
+ desktop.
+ .
+ This package provides the following widgets:
+  * Calculator
+  * Dictionary
+  * Fuzzy Clock
+  * Konsole Profiles
+  * Notes
+  * System Load Viewer
+  * Timer
+  * Unit Converter
+  * More coming soon..
+ .
+ This package is part of the KDE Plasma 5 addons module.
+
+Package: plasma-dataengines-addons
+Architecture: any
+Section: kde
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: additional data engines for Plasma
+ This package contains additional Plasma data engines shipped in Plasma 5
+ addons module. These engines are needed by some Plasma  5 widget shipped with
+ plasma-widgets-addons, but they may be useful for any other Plasma widgets too.
+ .
+ This package is part of the KDE Plasma addons module.
+
+Package: plasma-runners-addons
+Architecture: any
+Section: kde
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: additional runners for Plasma 5 and Krunner
+ This package contains additional Plasma runners that are used in krunner
+ (the "run command" dialog of Plasma) to reveal special search results.
+ If you use krunner a lot, you will probably like this package.
+ .
+ This package contains the following runners:
+  * Dictionary
+  * More coming soon..
+ .
+ This package is part of the KDE Plasma 5 addons module.
+
+Package: plasma-wallpapers-addons
+Architecture: any
+Section: kde
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: additional wallpaper plugins for Plasma 5
+ This package contains additional Plasma 5 wallpaper plugins that are used in
+ the Plasma desktop to give marble, mandelbrot and other such wallpapers.
+ .
+ This package contains the following wallpaper plugins:
+  * Haenau
+  * Hunyango
+  * More coming soon..  
+ .
+ This package is part of the KDE Plasma 5 addons module.
+
+Package: plasma-widget-kimpanel
+Architecture: any
+Section: kde
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: KIMPanel widget for Plasma
+ This package provides the KDE Input Method Panel widget for Plasma 5.
+ .
+ This package is part of the KDE Plasma addons module.
+
+Package: kdeplasma-addons-dbg
+Section: debug
+Architecture: any
+Priority: extra
+Depends: kde-workspace-dbg,
+         plasma-dataengines-addons (= ${binary:Version}),
+         plasma-runners-addons (= ${binary:Version}),
+         plasma-wallpapers-addons (= ${binary:Version}),
+         plasma-widget-kimpanel (= ${binary:Version}),
+         plasma-widgets-addons (= ${binary:Version}),
+         ${misc:Depends}
+Description: debugging symbols for kdeplasma-addons
+ This package contains the debugging symbols associated with kdeplasma-addons
+ for kf5. They will automatically be used by gdb for debugging kdeplasma-addons
+ related issues.
