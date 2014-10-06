@@ -1,8 +1,8 @@
+usr/lib/*/qt5/qml/org/kde/plasma/private/notes
 usr/share/kservices5/plasma-applet-org.kde.plasma.calculator.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.fuzzyclock.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.notes.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.systemloadviewer.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.timer.desktop
-usr/share/plasma/plasmoids/
 usr/share/plasma/desktoptheme/default
-usr/lib/*/qt5/qml/org/kde/plasma/private/notes
+usr/share/plasma/plasmoids/
