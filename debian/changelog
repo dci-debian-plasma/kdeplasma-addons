@@ -4,5 +4,6 @@ kdeplasma-addons (4:5.0.95b-0ubuntu1) UNRELEASED; urgency=medium
   * New copyright file, wrap-and-sort, changelog entry, add epoch.
   * Fix Maintainer field.
   * New upstream tarball, add new dependencies. 
+  * Correct the xcb dependency.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 03 Oct 2014 10:59:34 +0000
