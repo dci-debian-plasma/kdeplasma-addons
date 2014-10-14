@@ -1,4 +1,4 @@
-kdeplasma-addons (4:5.1.0-0ubuntu1) UNRELEASED; urgency=medium
+kdeplasma-addons (4:5.1.0.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * Initial release for Plasma 5
   * New copyright file, wrap-and-sort, changelog entry, add epoch.
