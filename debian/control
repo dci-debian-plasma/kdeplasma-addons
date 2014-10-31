@@ -48,6 +48,7 @@ Package: plasma-widgets-addons
 Architecture: any
 Section: kde
 Depends: plasma-dataengines-addons (= ${binary:Version}),
+         qml-module-org-kde-kio,
          ${misc:Depends},
          ${shlibs:Depends}
 Suggests: plasma-widget-kimpanel
