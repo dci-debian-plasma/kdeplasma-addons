@@ -1,3 +1,9 @@
+kdeplasma-addons (4:5.1.0.1-0ubuntu2) vivid; urgency=medium
+
+  * Remove unused build-depend libgio3.0-cil-dev
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 06 Nov 2014 11:31:26 +0100
+
 kdeplasma-addons (4:5.1.0.1-0ubuntu1) vivid; urgency=medium
 
   * Initial release for Plasma 5
