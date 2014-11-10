@@ -1,3 +1,9 @@
+kdeplasma-addons (4:5.1.1-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Nov 2014 21:19:52 +0100
+
 kdeplasma-addons (4:5.1.0.1-0ubuntu2) vivid; urgency=medium
 
   * Remove unused build-depend libgio3.0-cil-dev
