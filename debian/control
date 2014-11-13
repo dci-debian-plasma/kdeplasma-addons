@@ -1,14 +1,13 @@
 Source: kdeplasma-addons
 Section: utils
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules,
                kio-dev (>= 5.2.0),
                libboost1.55-dev,
                libgee-dev,
-               libgio3.0-cil-dev,
                libglib2.0-dev,
                libibus-1.0-dev,
                libkf5config-dev (>= 5.2.0),
@@ -20,6 +19,8 @@ Build-Depends: cmake,
                libkf5runner-dev (>= 5.2.0),
                libkf5service-dev (>= 5.2.0),
                libkf5unitconversion-dev (>= 5.2.0),
+               libqt5x11extras5-dev,
+               libxcb-keysyms1-dev,
                pkg-kde-tools,
                plasma-framework-dev,
                qtdeclarative5-dev,
@@ -42,10 +43,23 @@ Description: locale files for kdeplasma-addons
  This package contains locale files for KDE Plasma addons module.
 Multi-Arch: foreign
 
+Package: kwin-addons
+Architecture: any
+Section: kde
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: kwin-data (<< 4:5.1.0.1+git20141031.1444)
+Replaces: kwin-data (<< 4:5.1.0.1+git20141031.1444)
+Description: additional desktop and window switchers for KWin
+ This package contains additional KWin desktop and window switchers shipped in
+ the Plasma 5 addons module.
+ .
+ This package is part of the KDE Plasma addons module.
+
 Package: plasma-widgets-addons
 Architecture: any
 Section: kde
 Depends: plasma-dataengines-addons (= ${binary:Version}),
+         qml-module-org-kde-kio,
          ${misc:Depends},
          ${shlibs:Depends}
 Suggests: plasma-widget-kimpanel
