@@ -1,7 +1,6 @@
 kdeplasma-addons (5.0.95-0ubuntu1) UNRELEASED; urgency=medium
 
   * Initial release for Plasma 5
+  * Remove no-human-maintainers lintian-override per ScottK. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 03 Oct 2014 10:59:34 +0000
-
-
