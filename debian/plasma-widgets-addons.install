@@ -7,5 +7,6 @@ usr/share/kservices5/plasma-applet-org.kde.plasma.fuzzyclock.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.notes.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.systemloadviewer.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.timer.desktop
+usr/share/kservices5/plasma-applet-org.kde.plasma.webbrowser.desktop
 usr/share/plasma/desktoptheme/default
 usr/share/plasma/plasmoids/
