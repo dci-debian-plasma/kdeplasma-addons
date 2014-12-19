@@ -1,7 +1,5 @@
 usr/lib/*/qt5/qml/org/kde/plasma/private/notes
-usr/share/icons/hicolor/scalable/apps/fifteenpuzzle.svgz
 usr/share/kservices5/plasma-applet-org.kde.plasma.calculator.desktop
-usr/share/kservices5/plasma-applet-org.kde.plasma.fifteenpuzzle.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.fuzzyclock.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.notes.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.systemloadviewer.desktop
