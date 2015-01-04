@@ -43,6 +43,18 @@ Description: locale files for kdeplasma-addons
  This package contains locale files for KDE Plasma addons module.
 Multi-Arch: foreign
 
+Package: kwin-addons
+Architecture: any
+Section: kde
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: kwin-data (<< 4:5.1.0.1+git20141031.1444)
+Replaces: kwin-data (<< 4:5.1.0.1+git20141031.1444)
+Description: additional desktop and window switchers for KWin
+ This package contains additional KWin desktop and window switchers shipped in
+ the Plasma 5 addons module.
+ .
+ This package is part of the KDE Plasma addons module.
+
 Package: plasma-widgets-addons
 Architecture: any
 Section: kde
