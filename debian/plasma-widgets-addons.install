@@ -1,7 +1,7 @@
 usr/lib/*/qt5/qml/org/kde/plasma/private/fifteenpuzzle/
 usr/lib/*/qt5/qml/org/kde/plasma/private/notes
-usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/plasma/private/showdesktop/libshowdesktopplugin.so
-usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/plasma/private/showdesktop/qmldir
+usr/lib/*/qt5/qml/org/kde/plasma/private/showdesktop/libshowdesktopplugin.so
+usr/lib/*/qt5/qml/org/kde/plasma/private/showdesktop/qmldir
 usr/share/icons/hicolor/scalable/apps/fifteenpuzzle.svgz
 usr/share/kservices5/plasma-applet-org.kde.plasma.calculator.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.fifteenpuzzle.desktop
