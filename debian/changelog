@@ -1,3 +1,9 @@
+kdeplasma-addons (4:5.1.95-0ubuntu3) UNRELEASED; urgency=medium
+
+  * Fix the -data depends to use source:Version rather than binary:
+
+ -- Harald Sitter <sitter@kde.org>  Mon, 19 Jan 2015 14:50:04 +0100
+
 kdeplasma-addons (4:5.1.95-0ubuntu2) vivid; urgency=medium
 
   * Make packages depend on the -data package for translations
