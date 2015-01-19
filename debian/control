@@ -46,7 +46,7 @@ Multi-Arch: foreign
 Package: kwin-addons
 Architecture: any
 Section: kde
-Depends: kdeplasma-addons-data (= ${binary:Version}),
+Depends: kdeplasma-addons-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Breaks: kwin-data (<< 4:5.1.0.1+git20141031.1444)
@@ -60,7 +60,7 @@ Description: additional desktop and window switchers for KWin
 Package: plasma-widgets-addons
 Architecture: any
 Section: kde
-Depends: kdeplasma-addons-data (= ${binary:Version}),
+Depends: kdeplasma-addons-data (= ${source:Version}),
          plasma-dataengines-addons (= ${binary:Version}),
          qml-module-org-kde-kio,
          ${misc:Depends},
@@ -87,7 +87,7 @@ Description: additional widgets for Plasma 5
 Package: plasma-dataengines-addons
 Architecture: any
 Section: kde
-Depends: kdeplasma-addons-data (= ${binary:Version}),
+Depends: kdeplasma-addons-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: additional data engines for Plasma
@@ -100,7 +100,7 @@ Description: additional data engines for Plasma
 Package: plasma-runners-addons
 Architecture: any
 Section: kde
-Depends: kdeplasma-addons-data (= ${binary:Version}),
+Depends: kdeplasma-addons-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: additional runners for Plasma 5 and Krunner
@@ -117,7 +117,7 @@ Description: additional runners for Plasma 5 and Krunner
 Package: plasma-wallpapers-addons
 Architecture: any
 Section: kde
-Depends: kdeplasma-addons-data (= ${binary:Version}),
+Depends: kdeplasma-addons-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: additional wallpaper plugins for Plasma 5
@@ -134,7 +134,7 @@ Description: additional wallpaper plugins for Plasma 5
 Package: plasma-widget-kimpanel
 Architecture: any
 Section: kde
-Depends: kdeplasma-addons-data (= ${binary:Version}),
+Depends: kdeplasma-addons-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: KIMPanel widget for Plasma
