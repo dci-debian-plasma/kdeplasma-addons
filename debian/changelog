@@ -1,3 +1,9 @@
+kdeplasma-addons (4:5.2.0-1~) UNRELEASED; urgency=medium
+
+  * Prepare initial Debian release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 09 Feb 2015 09:26:20 +0100
+
 kdeplasma-addons (4:5.2.0-0ubuntu1) vivid; urgency=medium
 
   * Fix the -data depends to use source:Version rather than binary:
