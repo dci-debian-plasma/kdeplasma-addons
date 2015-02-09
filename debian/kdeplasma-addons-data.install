@@ -4,10 +4,10 @@ usr/share/locale/*/*/lancelot.mo
 usr/share/locale/*/*/liblancelot-datamodels.mo
 usr/share/locale/*/*/libplasma_groupingcontainment.mo
 usr/share/locale/*/*/libplasmaweather.mo
+usr/share/locale/*/*/plasma_applet_CharSelectApplet.mo
 usr/share/locale/*/*/plasma_applet_binaryclock.mo
 usr/share/locale/*/*/plasma_applet_bookmarks.mo
 usr/share/locale/*/*/plasma_applet_bubblemon.mo
-usr/share/locale/*/*/plasma_applet_CharSelectApplet.mo
 usr/share/locale/*/*/plasma_applet_comic.mo
 usr/share/locale/*/*/plasma_applet_fileWatcher.mo
 usr/share/locale/*/*/plasma_applet_frame.mo
@@ -42,9 +42,9 @@ usr/share/locale/*/*/plasma_applet_weather.mo
 usr/share/locale/*/*/plasma_applet_weatherstation.mo
 usr/share/locale/*/*/plasma_applet_webslice.mo
 usr/share/locale/*/*/plasma_packagestructure_comic.mo
+usr/share/locale/*/*/plasma_runner_CharacterRunner.mo
 usr/share/locale/*/*/plasma_runner_audioplayercontrol.mo
 usr/share/locale/*/*/plasma_runner_browserhistory.mo
-usr/share/locale/*/*/plasma_runner_CharacterRunner.mo
 usr/share/locale/*/*/plasma_runner_contacts.mo
 usr/share/locale/*/*/plasma_runner_converterrunner.mo
 usr/share/locale/*/*/plasma_runner_datetime.mo
