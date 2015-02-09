@@ -1,5 +1,5 @@
 Source: kdeplasma-addons
-Section: utils
+Section: kde
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: cmake,
@@ -33,7 +33,6 @@ X-Vcs-Debian-Git: git://anonscm.debian.org/pkg-kde/plasma/kdeplasma-addons.git
 
 Package: kdeplasma-addons-data
 Architecture: all
-Section: kde
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: locale files for kdeplasma-addons
  The KDE Plasma addons module is a collection of additional Plasma 5
@@ -45,7 +44,6 @@ Multi-Arch: foreign
 
 Package: kwin-addons
 Architecture: any
-Section: kde
 Depends: kdeplasma-addons-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
@@ -59,7 +57,6 @@ Description: additional desktop and window switchers for KWin
 
 Package: plasma-widgets-addons
 Architecture: any
-Section: kde
 Depends: kdeplasma-addons-data (= ${source:Version}),
          plasma-dataengines-addons (= ${binary:Version}),
          qml-module-org-kde-kio,
@@ -86,7 +83,6 @@ Description: additional widgets for Plasma 5
 
 Package: plasma-dataengines-addons
 Architecture: any
-Section: kde
 Depends: kdeplasma-addons-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
@@ -99,7 +95,6 @@ Description: additional data engines for Plasma
 
 Package: plasma-runners-addons
 Architecture: any
-Section: kde
 Depends: kdeplasma-addons-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
@@ -116,7 +111,6 @@ Description: additional runners for Plasma 5 and Krunner
 
 Package: plasma-wallpapers-addons
 Architecture: any
-Section: kde
 Depends: kdeplasma-addons-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
@@ -133,7 +127,6 @@ Description: additional wallpaper plugins for Plasma 5
 
 Package: plasma-widget-kimpanel
 Architecture: any
-Section: kde
 Depends: kdeplasma-addons-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
@@ -144,8 +137,8 @@ Description: KIMPanel widget for Plasma
 
 Package: kdeplasma-addons-dbg
 Section: debug
-Architecture: any
 Priority: extra
+Architecture: any
 Depends: plasma-dataengines-addons (= ${binary:Version}) | plasma-runners-addons (= ${binary:Version}) | plasma-wallpapers-addons (= ${binary:Version}) | plasma-widget-kimpanel (= ${binary:Version}) | plasma-widgets-addons (= ${binary:Version}),
          plasma-workspace-dbg,
          ${misc:Depends}
