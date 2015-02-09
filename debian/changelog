@@ -1,4 +1,4 @@
-kdeplasma-addons (4:5.2.0-1~) UNRELEASED; urgency=medium
+kdeplasma-addons (4:5.2.0-1) experimental; urgency=medium
 
   * Prepare initial Debian release.
   * Add myself as Uploader.
@@ -8,7 +8,7 @@ kdeplasma-addons (4:5.2.0-1~) UNRELEASED; urgency=medium
   * Update install files.
   * Update watch file.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 09 Feb 2015 09:26:20 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 09 Feb 2015 13:48:48 +0100
 
 kdeplasma-addons (4:5.2.0-0ubuntu1) vivid; urgency=medium
 
