@@ -146,7 +146,6 @@ Section: debug
 Priority: extra
 Architecture: any
 Depends: plasma-dataengines-addons (= ${binary:Version}) | plasma-runners-addons (= ${binary:Version}) | plasma-wallpapers-addons (= ${binary:Version}) | plasma-widget-kimpanel (= ${binary:Version}) | plasma-widgets-addons (= ${binary:Version}),
-         plasma-workspace-dbg,
          ${misc:Depends}
 Description: debugging symbols for kdeplasma-addons
  This package contains the debugging symbols associated with kdeplasma-addons
