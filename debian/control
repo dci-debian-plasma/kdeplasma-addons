@@ -90,6 +90,7 @@ Package: plasma-dataengines-addons
 Architecture: any
 Section: kde
 Depends: kdeplasma-addons-data (= ${source:Version}),
+         kross,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: additional data engines for Plasma
