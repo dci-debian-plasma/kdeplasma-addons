@@ -63,6 +63,7 @@ Package: plasma-widgets-addons
 Architecture: any
 Section: kde
 Depends: kdeplasma-addons-data (= ${source:Version}),
+         kpackagetool5,
          plasma-dataengines-addons (= ${binary:Version}),
          qml-module-org-kde-kio,
          ${misc:Depends},
