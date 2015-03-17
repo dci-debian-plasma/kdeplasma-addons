@@ -47,6 +47,7 @@ Package: kwin-addons
 Architecture: any
 Section: kde
 Depends: kdeplasma-addons-data (= ${source:Version}),
+         kwin,
          ${misc:Depends},
          ${shlibs:Depends}
 Breaks: kwin-data (<< 4:5.1.0.1+git20141031.1444)
@@ -118,6 +119,7 @@ Package: plasma-wallpapers-addons
 Architecture: any
 Section: kde
 Depends: kdeplasma-addons-data (= ${source:Version}),
+         plasma-framework,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: additional wallpaper plugins for Plasma 5
@@ -135,6 +137,10 @@ Package: plasma-widget-kimpanel
 Architecture: any
 Section: kde
 Depends: kdeplasma-addons-data (= ${source:Version}),
+         plasma-framework,
+         qml-module-org-kde-kquickcontrolsaddons,
+         qml-module-qtquick-layouts,
+         qml-module-qtquick2,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: KIMPanel widget for Plasma
