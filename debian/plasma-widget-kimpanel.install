@@ -4,4 +4,5 @@ usr/lib/*/qt5/plugins/plasma/dataengine/plasma_engine_kimpanel.so
 usr/lib/*/qt5/qml/org/kde/plasma/private/kimpanel/
 usr/share/kservices5/plasma-applet-org.kde.plasma.kimpanel.desktop
 usr/share/kservices5/plasma-dataengine-kimpanel.desktop
+usr/share/plasma/plasmoids/org.kde.plasma.kimpanel/
 usr/share/plasma/services/kimpanel.operations
