@@ -48,6 +48,7 @@ Architecture: any
 Section: kde
 Depends: kdeplasma-addons-data (= ${source:Version}),
          kwin,
+         plasma-framework,
          ${misc:Depends},
          ${shlibs:Depends}
 Breaks: kwin-data (<< 4:5.1.0.1+git20141031.1444)
