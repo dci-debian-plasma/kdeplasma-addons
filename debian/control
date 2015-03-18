@@ -144,6 +144,8 @@ Depends: kdeplasma-addons-data (= ${source:Version}),
          qml-module-qtquick2,
          ${misc:Depends},
          ${shlibs:Depends}
+Breaks: plasma-widgets-addons (<< 4:5.2.1+git20150318.0041)
+Replaces: plasma-widgets-addons (<< 4:5.2.1+git20150318.0041)
 Description: KIMPanel widget for Plasma
  This package provides the KDE Input Method Panel widget for Plasma 5.
  .
