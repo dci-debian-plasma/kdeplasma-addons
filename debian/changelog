@@ -1,3 +1,9 @@
+kdeplasma-addons (4:5.2.2-0ubuntu2) vivid; urgency=medium
+
+  * Fix .install files
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 25 Mar 2015 00:49:53 +0100
+
 kdeplasma-addons (4:5.2.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
