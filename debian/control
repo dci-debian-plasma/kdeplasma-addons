@@ -8,8 +8,9 @@ Build-Depends: cmake (>= 2.8.12),
                extra-cmake-modules (>= 1.0.0),
                kinit-dev,
                kio-dev (>= 5.2.0),
-               kross-dev,
+               kross-dev (>= 5.2.0),
                libboost-dev,
+               libgee-dev,
                libglib2.0-dev,
                libibus-1.0-dev,
                libkf5config-dev (>= 5.2.0),
@@ -18,6 +19,7 @@ Build-Depends: cmake (>= 2.8.12),
                libkf5i18n-dev (>= 5.2.0),
                libkf5kcmutils-dev (>= 5.2.0),
                libkf5kdelibs4support-dev (>= 5.2.0),
+               libkf5newstuff-dev (>= 5.2.0),
                libkf5runner-dev (>= 5.2.0),
                libkf5service-dev (>= 5.2.0),
                libkf5unitconversion-dev (>= 5.2.0),
@@ -51,6 +53,8 @@ Multi-Arch: foreign
 Package: kwin-addons
 Architecture: any
 Depends: kdeplasma-addons-data (= ${source:Version}),
+         kwin,
+         plasma-framework,
          ${misc:Depends},
          ${shlibs:Depends}
 Breaks: kwin-data (<< 4:5.1.0.1+git20141031.1444)
@@ -64,6 +68,7 @@ Description: additional desktop and window switchers for KWin
 Package: plasma-widgets-addons
 Architecture: any
 Depends: kdeplasma-addons-data (= ${source:Version}),
+         kpackagetool5,
          plasma-dataengines-addons (= ${binary:Version}),
          qml-module-org-kde-kio,
          ${misc:Depends},
@@ -90,6 +95,7 @@ Description: additional widgets for Plasma 5
 Package: plasma-dataengines-addons
 Architecture: any
 Depends: kdeplasma-addons-data (= ${source:Version}),
+         kross,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: additional data engines for Plasma
@@ -118,6 +124,7 @@ Description: additional runners for Plasma 5 and Krunner
 Package: plasma-wallpapers-addons
 Architecture: any
 Depends: kdeplasma-addons-data (= ${source:Version}),
+         plasma-framework,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: additional wallpaper plugins for Plasma 5
@@ -134,8 +141,14 @@ Description: additional wallpaper plugins for Plasma 5
 Package: plasma-widget-kimpanel
 Architecture: any
 Depends: kdeplasma-addons-data (= ${source:Version}),
+         plasma-framework,
+         qml-module-org-kde-kquickcontrolsaddons,
+         qml-module-qtquick-layouts,
+         qml-module-qtquick2,
          ${misc:Depends},
          ${shlibs:Depends}
+Breaks: plasma-widgets-addons (<< 4:5.2.1+git20150318.0041)
+Replaces: plasma-widgets-addons (<< 4:5.2.1+git20150318.0041)
 Description: KIMPanel widget for Plasma
  This package provides the KDE Input Method Panel widget for Plasma 5.
  .
