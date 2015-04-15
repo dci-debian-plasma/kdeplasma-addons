@@ -1,3 +1,10 @@
+kdeplasma-addons (4:5.2.2-0ubuntu3) vivid; urgency=medium
+
+  * Add depends on qml-module-qtwebkit LP: #1431610
+    Web Browser plasmoid missing dependency to QtWebKit
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 15 Apr 2015 12:34:59 +0200
+
 kdeplasma-addons (4:5.2.2-0ubuntu2) vivid; urgency=medium
 
   * Fix .install files
