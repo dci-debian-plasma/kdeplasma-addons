@@ -68,6 +68,7 @@ Depends: kdeplasma-addons-data (= ${source:Version}),
          kpackagetool5,
          plasma-dataengines-addons (= ${binary:Version}),
          qml-module-org-kde-kio,
+         qml-module-qtwebkit,
          ${misc:Depends},
          ${shlibs:Depends}
 Suggests: plasma-widget-kimpanel
