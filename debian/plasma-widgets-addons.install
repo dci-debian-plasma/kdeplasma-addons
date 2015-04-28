@@ -1,5 +1,5 @@
 etc/xdg/comic.knsrc
-usr/lib/*/qt5/plugins/plasmoids/plasma_applet_comic.so
+usr/lib/*/qt5/plugins/plasma_applet_comic.so
 usr/lib/*/qt5/qml/org/kde/plasma/private/fifteenpuzzle/
 usr/lib/*/qt5/qml/org/kde/plasma/private/notes/
 usr/lib/*/qt5/qml/org/kde/plasma/private/showdesktop/
