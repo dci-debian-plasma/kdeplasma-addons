@@ -8,7 +8,6 @@ usr/share/locale/*/*/plasma_applet_CharSelectApplet.mo
 usr/share/locale/*/*/plasma_applet_binaryclock.mo
 usr/share/locale/*/*/plasma_applet_bookmarks.mo
 usr/share/locale/*/*/plasma_applet_bubblemon.mo
-usr/share/locale/*/*/plasma_applet_comic.mo
 usr/share/locale/*/*/plasma_applet_fileWatcher.mo
 usr/share/locale/*/*/plasma_applet_frame.mo
 usr/share/locale/*/*/plasma_applet_groupingpanel.mo
@@ -23,6 +22,7 @@ usr/share/locale/*/*/plasma_applet_microblog.mo
 usr/share/locale/*/*/plasma_applet_news.mo
 usr/share/locale/*/*/plasma_applet_org.kde.kimpanel.mo
 usr/share/locale/*/*/plasma_applet_org.kde.plasma.calculator.mo
+usr/share/locale/*/*/plasma_applet_org.kde.plasma.comic.mo
 usr/share/locale/*/*/plasma_applet_org.kde.plasma.fifteenpuzzle.mo
 usr/share/locale/*/*/plasma_applet_org.kde.plasma.fuzzyclock.mo
 usr/share/locale/*/*/plasma_applet_org.kde.plasma.notes.mo
