@@ -4,7 +4,7 @@ Source: git://anongit.kde.org/kdeplasma-addons
 
 Files: *
 Copyright: 2013, Aaron Seigo <aseigo@kde.org>
-           2013, Aleix Pol Gonzalez <aleixpol@blue-systems.com>
+           2013-2015, Aleix Pol Gonzalez <aleixpol@blue-systems.com>
            2008, Alessandro Diaferia <alediaferia@gmail.com>
            2007, Alexis Ménard <darktears31@gmail.com>
            2007, André Duffeck <duffeck@kde.org>
@@ -13,7 +13,10 @@ Copyright: 2013, Aaron Seigo <aseigo@kde.org>
            2014, Ashish Madeti <ashishmadeti@gmail.com>
            2013, Aurélien Gâteau <agateau@kde.org>
            2009, Ben Boeckel <MathStuf@gmail.com>
+           2015, Bernhard Friedreich <friesoft@gmail.com>
+           2013, Bhushan Shah <bhush94@gmail.com>
            2009-2010, Björn Ruberg <bjoern@ruberg-wegener.de>
+           2011-2014, Weng Xuetian <wengxt@gmail.com>
            2007, Chani Armitage <chanika@gmail.com>
            2008-2010, Christian Weilbach <dunsens@web.de>
            2012-2014, David Edmundson <davidedmundson@kde.org >
@@ -28,13 +31,12 @@ Copyright: 2013, Aaron Seigo <aseigo@kde.org>
            2007, Henry Stanaland <stanaland@gmail.com>
            2008, Ian Monroe <ian@monroe.nu>
            2007-2010, Ivan Cukic <ivan.cukic@kde.org>
-           2010-2012, Jason A. Donenfeld <Jason@zx2c4.com>
            2014, Jeremy Whiting <jpwhiting@kde.org>
            2007, Jesper Thomschutz <jesperht@yahoo.com>
            2014, Kai Uwe Broulik <kde@privat.broulik.de>
-           2008, Laurent Montel <montel@kde.org>
            2012, Luiz Romário Santana Rios <luizromario@gmail.com>
            2012, Luís Gabriel Lima <lampih@gmail.com>
+           2015, Marco Martin <mart@kde.org>
            2007-2009, Marco Martin <notmart@gmail.com>
            2011-2013, Martin Gräßlin <mgraesslin@kde.org>
            2013, Martin Klapetek <mklapetek@kde.org>
@@ -42,6 +44,7 @@ Copyright: 2013, Aaron Seigo <aseigo@kde.org>
            2008-2012, Matthias Fuchs <mat69@gmx.net>
            2008-2010, Michal Dutkiewicz aka Emdek <emdeck@gmail.com>
            2014, Mikhail Ivchenko <ematirov@gmail.com>
+           2008, Montel Laurent <montel@kde.org>
            2008, Nick Shaforostoff <shaforostoff@kde.ru>
            2008-2009, Olivier Goffart <ogoffart@kde.org>
            2008, Peter ZHOU <peterzhoulei@gmail.com>
@@ -61,7 +64,17 @@ Copyright: 2013, Aaron Seigo <aseigo@kde.org>
            2007, Thomas Georgiou <TAGeorgiou@gmail.com> and Jeff Cooper <weirdsox11@gmail.com>
            2007, Tobias Koenig <tokoe@kde.org>
            2009, Wang Hoi <zealot.hoi@gmail.com>
-           2011-2014, Weng Xuetian <wengxt@gmail.com>
+           2007-2011, Free Software Foundation, Inc
+           2007-2010, Ivan Čukić
+           2010-2012, Jason A. Donenfeld <Jason@zx2c4.com>
+           2009, K Desktop Environment
+           2008, Rosetta Contributors and Canonical Ltd 2008
+           2009, Rosetta Contributors and Canonical Ltd 2009
+           2010, Rosetta Contributors and Canonical Ltd 2010
+           2011, Rosetta Contributors and Canonical Ltd 2011
+           2012, Rosetta Contributors and Canonical Ltd 2012
+           2014, Rosetta Contributors and Canonical Ltd 2014
+           2007-2015, This_file_is_part_of_KDE
 License: GPL-2+
 
 Files: applets/bubblemon/src/bubble.cpp
@@ -336,23 +349,250 @@ Copyright: 2006-2009, Aaron Seigo <aseigo@kde.org>
            2012, Shaun Reich <sreich@kde.org>
            2009, Trever Fischer <wm161@wm161.net>
 License: LGPL-2+
- This program is free software; you can redistribute it and/or modify
- it under the terms of the GNU Library General Public License as
- published by the Free Software Foundation; either version 2, or
- (at your option) any later version.
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details
- .
- You should have received a copy of the GNU Library General Public
- License along with this program; if not, write to the
- Free Software Foundation, Inc.,
- 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
- .
- On Debian systems, the complete text of the GNU Library General Public
- License version 2 can be found in `/usr/share/common-licenses/LGPL-2'.
+
+Files: po/ca/konqprofiles.po
+       po/ca/konsoleprofiles.po
+       po/ca/liblancelot-datamodels.po
+       po/ca/libplasma_groupingcontainment.po
+       po/ca/plasma_applet_CharSelectApplet.po
+       po/ca/plasma_applet_bookmarks.po
+       po/ca/plasma_applet_groupingpanel.po
+       po/ca/plasma_applet_incomingmsg.po
+       po/ca/plasma_applet_knowledgebase.po
+       po/ca/plasma_applet_kolourpicker.po
+       po/ca/plasma_applet_luna.po
+       po/ca/plasma_applet_org.kde.plasma.calculator.po
+       po/ca/plasma_applet_org.kde.plasma.showdesktop.po
+       po/ca/plasma_applet_org.kde.plasma.systemloadviewer.po
+       po/ca/plasma_applet_plasmaboard.po
+       po/ca/plasma_applet_previewer.po
+       po/ca/plasma_applet_qalculate.po
+       po/ca/plasma_applet_qstardict.po
+       po/ca/plasma_applet_showdashboard.po
+       po/ca/plasma_applet_spellcheck.po
+       po/ca/plasma_applet_webslice.po
+       po/ca/plasma_runner_CharacterRunner.po
+       po/ca/plasma_runner_audioplayercontrol.po
+       po/ca/plasma_runner_datetime.po
+       po/ca/plasma_runner_events.po
+       po/ca/plasma_runner_kopete.po
+       po/ca/plasma_runner_krunner_dictionary.po
+       po/ca/plasma_runner_mediawiki.po
+       po/ca/plasma_runner_translator.po
+       po/ca/plasma_runner_youtube.po
+       po/ca@valencia/konqprofiles.po
+       po/ca@valencia/konsoleprofiles.po
+       po/ca@valencia/liblancelot-datamodels.po
+       po/ca@valencia/libplasma_groupingcontainment.po
+       po/ca@valencia/plasma_applet_CharSelectApplet.po
+       po/ca@valencia/plasma_applet_bookmarks.po
+       po/ca@valencia/plasma_applet_groupingpanel.po
+       po/ca@valencia/plasma_applet_incomingmsg.po
+       po/ca@valencia/plasma_applet_knowledgebase.po
+       po/ca@valencia/plasma_applet_kolourpicker.po
+       po/ca@valencia/plasma_applet_luna.po
+       po/ca@valencia/plasma_applet_org.kde.plasma.calculator.po
+       po/ca@valencia/plasma_applet_org.kde.plasma.showdesktop.po
+       po/ca@valencia/plasma_applet_plasmaboard.po
+       po/ca@valencia/plasma_applet_previewer.po
+       po/ca@valencia/plasma_applet_qalculate.po
+       po/ca@valencia/plasma_applet_qstardict.po
+       po/ca@valencia/plasma_applet_showdashboard.po
+       po/ca@valencia/plasma_applet_spellcheck.po
+       po/ca@valencia/plasma_applet_webslice.po
+       po/ca@valencia/plasma_runner_CharacterRunner.po
+       po/ca@valencia/plasma_runner_audioplayercontrol.po
+       po/ca@valencia/plasma_runner_datetime.po
+       po/ca@valencia/plasma_runner_events.po
+       po/ca@valencia/plasma_runner_kopete.po
+       po/ca@valencia/plasma_runner_krunner_dictionary.po
+       po/ca@valencia/plasma_runner_mediawiki.po
+       po/ca@valencia/plasma_runner_translator.po
+       po/ca@valencia/plasma_runner_youtube.po
+       po/uk/konqprofiles.po
+       po/uk/konsoleprofiles.po
+       po/uk/lancelot.po
+       po/uk/liblancelot-datamodels.po
+       po/uk/libplasma_groupingcontainment.po
+       po/uk/libplasmaweather.po
+       po/uk/plasma_applet_CharSelectApplet.po
+       po/uk/plasma_applet_binaryclock.po
+       po/uk/plasma_applet_bookmarks.po
+       po/uk/plasma_applet_bubblemon.po
+       po/uk/plasma_applet_comic.po
+       po/uk/plasma_applet_fileWatcher.po
+       po/uk/plasma_applet_frame.po
+       po/uk/plasma_applet_groupingpanel.po
+       po/uk/plasma_applet_incomingmsg.po
+       po/uk/plasma_applet_knowledgebase.po
+       po/uk/plasma_applet_kolourpicker.po
+       po/uk/plasma_applet_leavenote.po
+       po/uk/plasma_applet_life.po
+       po/uk/plasma_applet_luna.po
+       po/uk/plasma_applet_magnifique.po
+       po/uk/plasma_applet_microblog.po
+       po/uk/plasma_applet_news.po
+       po/uk/plasma_applet_org.kde.kimpanel.po
+       po/uk/plasma_applet_org.kde.plasma.calculator.po
+       po/uk/plasma_applet_org.kde.plasma.comic.po
+       po/uk/plasma_applet_org.kde.plasma.fifteenpuzzle.po
+       po/uk/plasma_applet_org.kde.plasma.fuzzyclock.po
+       po/uk/plasma_applet_org.kde.plasma.notes.po
+       po/uk/plasma_applet_org.kde.plasma.quickshare.po
+       po/uk/plasma_applet_org.kde.plasma.showdesktop.po
+       po/uk/plasma_applet_org.kde.plasma.systemloadviewer.po
+       po/uk/plasma_applet_org.kde.plasma.timer.po
+       po/uk/plasma_applet_plasmaboard.po
+       po/uk/plasma_applet_previewer.po
+       po/uk/plasma_applet_qalculate.po
+       po/uk/plasma_applet_qstardict.po
+       po/uk/plasma_applet_rssnow.po
+       po/uk/plasma_applet_showdashboard.po
+       po/uk/plasma_applet_spellcheck.po
+       po/uk/plasma_applet_unitconverter.po
+       po/uk/plasma_applet_weather.po
+       po/uk/plasma_applet_weatherstation.po
+       po/uk/plasma_applet_webslice.po
+       po/uk/plasma_packagestructure_comic.po
+       po/uk/plasma_runner_CharacterRunner.po
+       po/uk/plasma_runner_audioplayercontrol.po
+       po/uk/plasma_runner_browserhistory.po
+       po/uk/plasma_runner_contacts.po
+       po/uk/plasma_runner_converterrunner.po
+       po/uk/plasma_runner_datetime.po
+       po/uk/plasma_runner_events.po
+       po/uk/plasma_runner_katesessions.po
+       po/uk/plasma_runner_konquerorsessions.po
+       po/uk/plasma_runner_konsolesessions.po
+       po/uk/plasma_runner_kopete.po
+       po/uk/plasma_runner_krunner_dictionary.po
+       po/uk/plasma_runner_mediawiki.po
+       po/uk/plasma_runner_spellcheckrunner.po
+       po/uk/plasma_runner_translator.po
+       po/uk/plasma_runner_youtube.po
+       runners/characters/charrunner.cpp
+       runners/characters/charrunner.h
+       runners/characters/charrunner_config.cpp
+       runners/characters/charrunner_config.h
+Copyright: 2010, Anton Kreuzkamp <akreuzkamp@web.de>
+           2008-2015, This_file_is_part_of_KDE
+License: LGPL-2.1+3+KDEeV
+
+Files: applets/leavenote/leavenote.cpp
+       applets/leavenote/leavenote.h
+       dataengines/comic/cachedprovider.cpp
+       dataengines/comic/cachedprovider.h
+       dataengines/comic/comic.cpp
+       dataengines/comic/comic.h
+       dataengines/comic/comic_package.cpp
+       dataengines/comic/comic_package.h
+       dataengines/comic/comic_package_plugin.cpp
+       dataengines/comic/comicprovider.cpp
+       dataengines/comic/comicprovider.h
+       dataengines/comic/comicproviderkross.cpp
+       dataengines/comic/comicproviderkross.h
+       dataengines/comic/comicproviderwrapper.cpp
+       dataengines/comic/comicproviderwrapper.h
+       dataengines/microblog/twitterengine.cpp
+       dataengines/microblog/twitterengine.h
+       po/ca/lancelot.po
+       po/ca/libplasmaweather.po
+       po/ca/plasma_applet_binaryclock.po
+       po/ca/plasma_applet_bubblemon.po
+       po/ca/plasma_applet_comic.po
+       po/ca/plasma_applet_fileWatcher.po
+       po/ca/plasma_applet_frame.po
+       po/ca/plasma_applet_leavenote.po
+       po/ca/plasma_applet_life.po
+       po/ca/plasma_applet_magnifique.po
+       po/ca/plasma_applet_microblog.po
+       po/ca/plasma_applet_news.po
+       po/ca/plasma_applet_org.kde.kimpanel.po
+       po/ca/plasma_applet_org.kde.plasma.comic.po
+       po/ca/plasma_applet_org.kde.plasma.fifteenpuzzle.po
+       po/ca/plasma_applet_org.kde.plasma.fuzzyclock.po
+       po/ca/plasma_applet_org.kde.plasma.notes.po
+       po/ca/plasma_applet_org.kde.plasma.quickshare.po
+       po/ca/plasma_applet_org.kde.plasma.timer.po
+       po/ca/plasma_applet_rssnow.po
+       po/ca/plasma_applet_unitconverter.po
+       po/ca/plasma_applet_weather.po
+       po/ca/plasma_applet_weatherstation.po
+       po/ca/plasma_packagestructure_comic.po
+       po/ca/plasma_runner_browserhistory.po
+       po/ca/plasma_runner_contacts.po
+       po/ca/plasma_runner_converterrunner.po
+       po/ca/plasma_runner_katesessions.po
+       po/ca/plasma_runner_konquerorsessions.po
+       po/ca/plasma_runner_konsolesessions.po
+       po/ca/plasma_runner_spellcheckrunner.po
+       po/ca@valencia/lancelot.po
+       po/ca@valencia/libplasmaweather.po
+       po/ca@valencia/plasma_applet_binaryclock.po
+       po/ca@valencia/plasma_applet_bubblemon.po
+       po/ca@valencia/plasma_applet_comic.po
+       po/ca@valencia/plasma_applet_fileWatcher.po
+       po/ca@valencia/plasma_applet_frame.po
+       po/ca@valencia/plasma_applet_leavenote.po
+       po/ca@valencia/plasma_applet_life.po
+       po/ca@valencia/plasma_applet_magnifique.po
+       po/ca@valencia/plasma_applet_microblog.po
+       po/ca@valencia/plasma_applet_news.po
+       po/ca@valencia/plasma_applet_org.kde.kimpanel.po
+       po/ca@valencia/plasma_applet_org.kde.plasma.comic.po
+       po/ca@valencia/plasma_applet_org.kde.plasma.fifteenpuzzle.po
+       po/ca@valencia/plasma_applet_org.kde.plasma.fuzzyclock.po
+       po/ca@valencia/plasma_applet_org.kde.plasma.notes.po
+       po/ca@valencia/plasma_applet_org.kde.plasma.systemloadviewer.po
+       po/ca@valencia/plasma_applet_org.kde.plasma.timer.po
+       po/ca@valencia/plasma_applet_rssnow.po
+       po/ca@valencia/plasma_applet_unitconverter.po
+       po/ca@valencia/plasma_applet_weather.po
+       po/ca@valencia/plasma_applet_weatherstation.po
+       po/ca@valencia/plasma_packagestructure_comic.po
+       po/ca@valencia/plasma_runner_browserhistory.po
+       po/ca@valencia/plasma_runner_contacts.po
+       po/ca@valencia/plasma_runner_converterrunner.po
+       po/ca@valencia/plasma_runner_katesessions.po
+       po/ca@valencia/plasma_runner_konquerorsessions.po
+       po/ca@valencia/plasma_runner_konsolesessions.po
+       po/ca@valencia/plasma_runner_spellcheckrunner.po
+       runners/audioplayercontrol/audioplayercontrolconfigkeys.h
+       runners/audioplayercontrol/audioplayercontrolrunner.cpp
+       runners/audioplayercontrol/audioplayercontrolrunner.h
+       runners/audioplayercontrol/audioplayercontrolrunner_config.cpp
+       runners/audioplayercontrol/audioplayercontrolrunner_config.h
+       runners/audioplayercontrol/imageiconengine.cpp
+       runners/audioplayercontrol/imageiconengine.h
+       runners/contacts/contactsrunner.cpp
+       runners/contacts/contactsrunner.h
+       runners/contacts/imageiconengine.cpp
+       runners/contacts/imageiconengine.h
+       runners/datetime/datetimerunner.cpp
+       runners/datetime/datetimerunner.h
+       runners/spellchecker/spellcheck.cpp
+       runners/spellchecker/spellcheck.h
+       runners/youtube/imageiconengine.cpp
+       runners/youtube/imageiconengine.h
+Copyright: 2006-2010, Aaron Seigo <aseigo@kde.org>
+           2007, André Duffeck <duffeck@kde.org>
+           2008, Bruno Virlet <bvirlet@kdemail.net>
+           2007, Chani Armitage <chanika@gmail.com>
+           2008, Christian Weilbach <dunsens@web.de>
+           2009, Christoph Feck <christoph@maxiom.de>
+           2009, Jan G. Marker <jangerrit@weiler-marker.com>
+           2010, Marco MArtin <notmart@gmail.com>
+           2010, Matthias Fuchs <mat69@gmx.net>
+           2008, Petri Damstén <damu@iki.fi>
+           2007, Ryan Bitanga <ephebiphobic@gmail.com>
+           2009, Ryan P. Bitanga <ryan.bitanga@gmail.com>
+           2012, Sebastian Kügler <sebas@kde.org>
+           2007, Teemu Rytilahti <tpr@iki.fi>
+           2007-2015, This_file_is_part_of_KDE
+           2007, Tobias Koenig <tokoe@kde.org>
+           2007, Trever Fischer <wm161@wm161.net>
+           2015, Vishesh Handa <vhanda@kde.org>
+License: LGPL-2
 
 Files: applets/bookmarks/bookmarkowner.h
        applets/bookmarks/bookmarksplasmoid.cpp
@@ -388,11 +628,13 @@ Files: applets/bookmarks/bookmarkowner.h
        applets/kimpanel/plugin/screen.cpp
        applets/kimpanel/plugin/screen.h
        applets/quickshare/contents/config/config.qml
+       applets/quickshare/plasmoid/contents/config/config.qml
        applets/systemloadviewer/package/contents/config/config.qml
        applets/systemloadviewer/package/contents/ui/BarMonitor.qml
        applets/systemloadviewer/package/contents/ui/CircularMonitor.qml
        applets/systemloadviewer/package/contents/ui/ColorPicker.qml
        applets/systemloadviewer/package/contents/ui/ColorSettings.qml
+       applets/systemloadviewer/package/contents/ui/CompactBarMonitor.qml
        applets/systemloadviewer/package/contents/ui/ConditionallyLoadedMonitors.qml
        applets/systemloadviewer/package/contents/ui/ConditionallyRoundedRectangle.qml
        applets/systemloadviewer/package/contents/ui/GeneralSettings.qml
@@ -414,99 +656,13 @@ Copyright: 2014, Aleix Pol Gonzalez <aleixpol@blue-systems.com>
            2013, Bhushan Shah <bhush94@gmail.com>
            2009-2010, Friedrich W. H. Kossebau <kossebau@kde.org>
            2014, Jeremy Whiting <jpwhiting@kde.org>
+           2015, Joshua Worth <joshua@worth.id.au>
            2014, Kai Uwe Broulik <kde@privat.broulik.de>
            2014, Martin Yrjölä <martin.yrjola@gmail.com>
            2011-2012, Ni Hui <shuizhuyuanluo@126.com>
            2013, Sebastian Kügler <sebas@kde.org>
            2013-2014, Weng Xuetian <wengxt@gmail.com>
 License: GPL-2+3+KDEeV
- This program is free software; you can redistribute it and/or
- modify it under the terms of the GNU General Public License as
- published by the Free Software Foundation; either version 2 of
- the License or (at your option) version 3 or any later version
- accepted by the membership of KDE e.V. (or its successor approved
- by the membership of KDE e.V.), which shall act as a proxy
- defined in Section 14 of version 3 of the license.
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program.  If not, see <http://www.gnu.org/licenses/>.
- .
- On Debian systems, the complete text of the GNU General Public License
- version 2 can be found in `/usr/share/common-licenses/GPL-2', likewise, the
- complete text of the GNU General Public License version 3 can be found in
- `/usr/share/common-licenses/GPL-3'.
-
-Files: applets/leavenote/leavenote.cpp
-       applets/leavenote/leavenote.h
-       dataengines/comic/cachedprovider.cpp
-       dataengines/comic/cachedprovider.h
-       dataengines/comic/comic.cpp
-       dataengines/comic/comic.h
-       dataengines/comic/comic_package.cpp
-       dataengines/comic/comic_package.h
-       dataengines/comic/comic_package_plugin.cpp
-       dataengines/comic/comicprovider.cpp
-       dataengines/comic/comicprovider.h
-       dataengines/comic/comicproviderkross.cpp
-       dataengines/comic/comicproviderkross.h
-       dataengines/comic/comicproviderwrapper.cpp
-       dataengines/comic/comicproviderwrapper.h
-       dataengines/microblog/twitterengine.cpp
-       dataengines/microblog/twitterengine.h
-       runners/audioplayercontrol/audioplayercontrolconfigkeys.h
-       runners/audioplayercontrol/audioplayercontrolrunner.cpp
-       runners/audioplayercontrol/audioplayercontrolrunner.h
-       runners/audioplayercontrol/audioplayercontrolrunner_config.cpp
-       runners/audioplayercontrol/audioplayercontrolrunner_config.h
-       runners/audioplayercontrol/imageiconengine.cpp
-       runners/audioplayercontrol/imageiconengine.h
-       runners/contacts/contactsrunner.cpp
-       runners/contacts/contactsrunner.h
-       runners/contacts/imageiconengine.cpp
-       runners/contacts/imageiconengine.h
-       runners/datetime/datetimerunner.cpp
-       runners/datetime/datetimerunner.h
-       runners/spellchecker/spellcheck.cpp
-       runners/spellchecker/spellcheck.h
-       runners/youtube/imageiconengine.cpp
-       runners/youtube/imageiconengine.h
-Copyright: 2006-2010, Aaron Seigo <aseigo@kde.org>
-           2007, André Duffeck <duffeck@kde.org>
-           2008, Bruno Virlet <bvirlet@kdemail.net>
-           2007, Chani Armitage <chanika@gmail.com>
-           2008, Christian Weilbach <dunsens@web.de>
-           2009, Christoph Feck <christoph@maxiom.de>
-           2009, Jan G. Marker <jangerrit@weiler-marker.com>
-           2010, Marco MArtin <notmart@gmail.com>
-           2010, Matthias Fuchs <mat69@gmx.net>
-           2008, Petri Damstén <damu@iki.fi>
-           2007, Ryan Bitanga <ephebiphobic@gmail.com>
-           2009, Ryan P. Bitanga <ryan.bitanga@gmail.com>
-           2012, Sebastian Kügler <sebas@kde.org>
-           2007, Teemu Rytilahti <tpr@iki.fi>
-           2007, Tobias Koenig <tokoe@kde.org>
-           2007, Trever Fischer <wm161@wm161.net>
-License: LGPL-2
- This program is free software; you can redistribute it and/or modify it under
- the terms of the GNU Library General Public License version 2 as published by
- the Free Software Foundation
- .
- This program is distributed in the hope that it will be useful, but WITHOUT
- ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
- details
- .
- You should have received a copy of the GNU Library General Public License
- along with this program; if not, write to the Free Software Foundation, Inc.,
- 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
- .
- On Debian systems, the complete text of the GNU Library General Public
- License version 2 can be found in `/usr/share/common-licenses/LGPL-2'.
 
 Files: applets/kimpanel/COPYING-CMAKE-SCRIPTS
        applets/kimpanel/backend/scim/FindSCIM.cmake
@@ -533,28 +689,6 @@ Copyright: 2007, Alexander Neundorf <neundorf@kde.org>
            2007, Vladimir Kuznetsov <ks.vladimir@gmail.com>
            2009, Wang Hoi <zeahot.hoi@gmail.org>
 License: BSD-3-clause
- Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions
- are met:
- .
- 1. Redistributions of source code must retain the copyright
-    notice, this list of conditions and the following disclaimer.
- 2. Redistributions in binary form must reproduce the copyright
-    notice, this list of conditions and the following disclaimer in the
-    documentation and/or other materials provided with the distribution.
- 3. The name of the author may not be used to endorse or promote products
-    derived from this software without specific prior written permission.
- .
- THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
- IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
- OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
- IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
- INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
- NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
- DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
- THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
- (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
- THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 Files: COPYING.LIB
        applets/kimpanel/COPYING.LIB
@@ -574,48 +708,6 @@ Copyright: 2009, Adenilson Cavalcanti <adenilson.silva@idnt.org.br>
            1991-1999, Free Software Foundation, Inc
            2009, Igor Trindade Oliveira <igor.oliveira@indt.org.br>
 License: LGPL-2.1+
- This library is free software; you can redistribute it and/or
- modify it under the terms of the GNU Lesser General Public
- License as published by the Free Software Foundation; either
- version 2.1 of the License, or (at your option) any later version.
- .
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Lesser General Public License for more details.
- .
- You should have received a copy of the GNU Lesser General Public
- License along with this library.  If not, see <http://www.gnu.org/licenses/>.
- .
- On Debian systems, the complete text of the GNU Lesser General Public License
- version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1'.
-
-Files: runners/characters/charrunner.cpp
-       runners/characters/charrunner.h
-       runners/characters/charrunner_config.cpp
-       runners/characters/charrunner_config.h
-Copyright: 2010, Anton Kreuzkamp <akreuzkamp@web.de>
-License: LGPL-2.1+3+KDEeV
- This library is free software; you can redistribute it and/or
- modify it under the terms of the GNU Lesser General Public
- License as published by the Free Software Foundation; either
- version 2.1 of the License, or (at your option) version 3, or any
- later version accepted by the membership of KDE e.V. (or its
- successor approved by the membership of KDE e.V.), which shall
- act as a proxy defined in Section 6 of version 3 of the license.
- .
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Lesser General Public License for more details.
- .
- You should have received a copy of the GNU Lesser General Public
- License along with this library.  If not, see <http://www.gnu.org/licenses/>.
- .
- On Debian systems, the complete text of the GNU Lesser General Public License
- version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1', likewise,
- the complete text of the GNU Lesser General Public License version 3 can be
- found in `/usr/share/common-licenses/LGPL-3'.
 
 Files: cmake/FindLancelot-Datamodels.cmake
        cmake/FindLancelot.cmake
@@ -667,10 +759,42 @@ License: GPL-2+BSD-3-clause
  On Debian systems, the complete text of the GNU General Public License
  version 2 can be found in `/usr/share/common-licenses/GPL-2'.
 
+Files: runners/events/README.markdown
+Copyright: 2010, Alexey Noskov
+License: GPL-3
+ released under the GPLv3 license.
+ -
+ On Debian systems, the complete text of the GNU General Public License
+ version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
 Files: debian/*
 Copyright: 2007-2009, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
            2014-2015, Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 License: GPL-2+
+
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. The name of the author may not be used to endorse or promote products
+    derived from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
@@ -688,3 +812,100 @@ License: GPL-2+
  .
  On Debian systems, the complete text of the GNU General Public License
  version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GPL-2+3+KDEeV
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License or (at your option) version 3 or any later version
+ accepted by the membership of KDE e.V. (or its successor approved
+ by the membership of KDE e.V.), which shall act as a proxy
+ defined in Section 14 of version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in `/usr/share/common-licenses/GPL-2', likewise, the
+ complete text of the GNU General Public License version 3 can be found in
+ `/usr/share/common-licenses/GPL-3'.
+
+License: LGPL-2
+ This program is free software; you can redistribute it and/or modify it under
+ the terms of the GNU Library General Public License version 2 as published by
+ the Free Software Foundation
+ .
+ This program is distributed in the hope that it will be useful, but WITHOUT
+ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+ details
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this program; if not, write to the Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ -
+ On Debian systems, the complete text of the GNU Library General Public
+ License version 2 can be found in `/usr/share/common-licenses/LGPL-2'.
+
+License: LGPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Library General Public License as
+ published by the Free Software Foundation; either version 2, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this program; if not, write to the
+ Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ -
+ On Debian systems, the complete text of the GNU Library General Public
+ License version 2 can be found in `/usr/share/common-licenses/LGPL-2'.
+
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library.  If not, see <http://www.gnu.org/licenses/>.
+ -
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1'.
+
+License: LGPL-2.1+3+KDEeV
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) version 3, or any
+ later version accepted by the membership of KDE e.V. (or its
+ successor approved by the membership of KDE e.V.), which shall
+ act as a proxy defined in Section 6 of version 3 of the license.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library.  If not, see <http://www.gnu.org/licenses/>.
+ -
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1', likewise,
+ the complete text of the GNU Lesser General Public License version 3 can be
+ found in `/usr/share/common-licenses/LGPL-3'.
