@@ -27,7 +27,7 @@ Build-Depends: cmake (>= 2.8.12),
                libx11-dev,
                libxcb-keysyms1-dev,
                pkg-config,
-               pkg-kde-tools (>= 0.15.16),
+               pkg-kde-tools (>= 0.15.18~),
                plasma-framework-dev (>= 5.8.0~),
                qtbase5-dev (>= 5.4),
                qtdeclarative5-dev (>= 5.4),
@@ -42,6 +42,8 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kdeplasma-addons.git
 Package: kdeplasma-addons-data
 Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: locale files for kdeplasma-addons
  The KDE Plasma addons module is a collection of additional Plasma 5
  data engines, widgets and krunner plugins. It is part of
