@@ -9,7 +9,7 @@ usr/share/kservices5/plasma-applet-org.kde.plasma.calculator.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.comic.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.fifteenpuzzle.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.fuzzyclock.desktop
-usr/share/kservices5/plasma-applet-org.kde.plasma.kickerdash
+usr/share/kservices5/plasma-applet-org.kde.plasma.kickerdash.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.konsoleprofiles.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.notes.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.showdesktop.desktop
