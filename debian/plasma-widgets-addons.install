@@ -1,5 +1,5 @@
 etc/xdg/comic.knsrc
-usr/lib/*/qt5/plugins/plasma_applet_comic.so
+usr/lib/*/qt5/plugins/plasma/applets/plasma_applet_comic.so
 usr/lib/*/qt5/qml/org/kde/plasma/private/fifteenpuzzle/
 usr/lib/*/qt5/qml/org/kde/plasma/private/notes/
 usr/lib/*/qt5/qml/org/kde/plasma/private/showdesktop/
@@ -14,7 +14,11 @@ usr/share/kservices5/plasma-applet-org.kde.plasma.showdesktop.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.systemloadviewer.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.timer.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.webbrowser.desktop
+usr/share/kservices5/plasma-applet-org.kde.plasma.kickerdash
+usr/share/kservices5/plasma-applet-org.kde.plasma.konsoleprofiles.desktop
 usr/share/plasma/desktoptheme/default
+usr/share/plasma/plasmoids/org.kde.plasma.kickerdash/
+usr/share/plasma/plasmoids/org.kde.plasma.konsoleprofiles/
 usr/share/plasma/plasmoids/org.kde.plasma.calculator/
 usr/share/plasma/plasmoids/org.kde.plasma.comic/
 usr/share/plasma/plasmoids/org.kde.plasma.fifteenpuzzle/
