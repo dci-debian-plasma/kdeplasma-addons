@@ -34,7 +34,6 @@ Build-Depends: cmake (>= 2.8.12),
                scim-dev,
                shared-mime-info
 Standards-Version: 3.9.6
-XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kde/workspace/kdeplasma-addons
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/plasma/kdeplasma-addons.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kdeplasma-addons.git
