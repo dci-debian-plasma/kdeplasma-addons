@@ -14,7 +14,7 @@ usr/share/kservices5/plasma-applet-org.kde.plasma.showdesktop.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.systemloadviewer.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.timer.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.webbrowser.desktop
-usr/share/kservices5/plasma-applet-org.kde.plasma.kickerdash
+usr/share/kservices5/plasma-applet-org.kde.plasma.kickerdash.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.konsoleprofiles.desktop
 usr/share/plasma/desktoptheme/default
 usr/share/plasma/plasmoids/org.kde.plasma.kickerdash/
