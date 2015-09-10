@@ -70,7 +70,12 @@ Architecture: any
 Depends: kdeplasma-addons-data (= ${source:Version}),
          kpackagetool5,
          plasma-dataengines-addons (= ${binary:Version}),
+         plasma-framework,
+         plasma-workspace,
+         qml-module-org-kde-draganddrop,
+         qml-module-org-kde-kcoreaddons,
          qml-module-org-kde-kio,
+         qml-module-qtgraphicaleffects,
          qml-module-qtwebkit,
          ${misc:Depends},
          ${shlibs:Depends}

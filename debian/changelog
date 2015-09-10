@@ -8,12 +8,36 @@ kdeplasma-addons (4:5.4.1-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 10 Sep 2015 08:13:18 -0400
 
+kdeplasma-addons (4:5.4.1-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 08 Sep 2015 10:14:40 +0100
+
 kdeplasma-addons (4:5.4.0-1) unstable; urgency=medium
 
   * New upstream release (5.4.0).
   * Update install files.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 03 Sep 2015 18:00:02 +0200
+
+kdeplasma-addons (4:5.4.0-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 31 Aug 2015 15:48:32 +0100
+
+kdeplasma-addons (4:5.3.95-0ubuntu2) wily; urgency=medium
+
+  * Build-depend on unversioned boost package.
+
+ -- Matthias Klose <doko@ubuntu.com>  Fri, 28 Aug 2015 13:58:26 +0200
+
+kdeplasma-addons (4:5.3.95-0ubuntu1) wily; urgency=medium
+
+  * new upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 23:12:41 +0200
 
 kdeplasma-addons (4:5.3.2-2) unstable; urgency=medium
 
@@ -27,6 +51,12 @@ kdeplasma-addons (4:5.3.2-1) unstable; urgency=medium
   * Update copyright information.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 30 Jun 2015 20:36:27 +0200
+
+kdeplasma-addons (4:5.3.2-0ubuntu1) wily; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 02 Jul 2015 12:26:53 +0000
 
 kdeplasma-addons (4:5.3.1-1) unstable; urgency=medium
 
