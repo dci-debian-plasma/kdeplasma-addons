@@ -1,4 +1,4 @@
-kdeplasma-addons (4:5.4.1-1~) UNRELEASED; urgency=medium
+kdeplasma-addons (4:5.4.1-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.4.1).
@@ -6,7 +6,7 @@ kdeplasma-addons (4:5.4.1-1~) UNRELEASED; urgency=medium
   [ Scott Kitterman ]
   * Drop unused build-depends on libgee-dev
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 10 Sep 2015 08:13:18 -0400
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 11 Sep 2015 18:45:32 +0200
 
 kdeplasma-addons (4:5.4.1-0ubuntu1) wily; urgency=medium
 
