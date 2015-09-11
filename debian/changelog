@@ -5,6 +5,8 @@ kdeplasma-addons (4:5.4.1-1) unstable; urgency=medium
 
   [ Scott Kitterman ]
   * Drop unused build-depends on libgee-dev
+  * Add kwin-x11 as a real alternative to the kwin virtual package depends for
+    kwin-addons to make the package more installable (Closes: #791381)
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 11 Sep 2015 18:45:32 +0200
 
