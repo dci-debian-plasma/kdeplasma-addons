@@ -3,6 +3,7 @@ usr/lib/*/qt5/plugins/plasma/applets/plasma_applet_comic.so
 usr/lib/*/qt5/qml/org/kde/plasma/private/colorpicker/
 usr/lib/*/qt5/qml/org/kde/plasma/private/fifteenpuzzle/
 usr/lib/*/qt5/qml/org/kde/plasma/private/notes/
+usr/lib/*/qt5/qml/org/kde/plasma/private/quicklaunch/
 usr/lib/*/qt5/qml/org/kde/plasma/private/showdesktop/
 usr/lib/*/qt5/qml/org/kde/plasma/private/timer/
 usr/share/icons/hicolor/scalable/apps/fifteenpuzzle.svgz
@@ -14,6 +15,7 @@ usr/share/kservices5/plasma-applet-org.kde.plasma.fuzzyclock.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.kickerdash.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.konsoleprofiles.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.notes.desktop
+usr/share/kservices5/plasma-applet-org.kde.plasma.quicklaunch.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.showdesktop.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.systemloadviewer.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.timer.desktop
@@ -27,6 +29,7 @@ usr/share/plasma/plasmoids/org.kde.plasma.fuzzyclock/
 usr/share/plasma/plasmoids/org.kde.plasma.kickerdash/metadata.desktop
 usr/share/plasma/plasmoids/org.kde.plasma.konsoleprofiles/
 usr/share/plasma/plasmoids/org.kde.plasma.notes/
+usr/share/plasma/plasmoids/org.kde.plasma.quicklaunch/
 usr/share/plasma/plasmoids/org.kde.plasma.showdesktop/
 usr/share/plasma/plasmoids/org.kde.plasma.systemloadviewer/
 usr/share/plasma/plasmoids/org.kde.plasma.timer/
