@@ -5,6 +5,8 @@ kdeplasma-addons (4:5.4.2-0ubuntu1) UNRELEASED; urgency=medium
   * This requires kconf_update to build,
     which resides in libkf5config-bin. Adding to build deps.
   * Add new build dependency to libxcb-image0.
+  * Remove depend on libkf5config-bin. Added it to runtime in kconfig
+    instead due to the number of broken builds.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 05 Oct 2015 11:40:23 -0700
 
