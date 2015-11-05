@@ -4,6 +4,7 @@ kdeplasma-addons (4:5.4.2-0ubuntu1) UNRELEASED; urgency=medium
   * Add new build dependency to kactivities. 
   * This requires kconf_update to build,
     which resides in libkf5config-bin. Adding to build deps.
+  * Add new build dependency to libxcb-image0.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 05 Oct 2015 11:40:23 -0700
 
