@@ -25,6 +25,7 @@ Build-Depends: cmake,
                libqt5x11extras5-dev,
                libxcb-image0-dev,
                libxcb-keysyms1-dev,
+               libxcb-xkb-dev,
                pkg-kde-tools,
                plasma-framework-dev,
                qtdeclarative5-dev,
@@ -93,6 +94,9 @@ Description: additional widgets for Plasma 5
   * System Load Viewer
   * Timer
   * Unit Converter
+  * Userswitcher
+  * Diskquota
+  * Activity pager
   * More coming soon..
  .
  This package is part of the KDE Plasma 5 addons module.
