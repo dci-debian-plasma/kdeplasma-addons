@@ -25,8 +25,15 @@ usr/share/kservices5/plasma-applet-org.kde.plasma.systemloadviewer.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.timer.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.userswitcher.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.webbrowser.desktop
+usr/share/kservices5/plasma-applet-org.kde.plasma.kickerdash.desktop
+usr/share/kservices5/plasma-applet-org.kde.plasma.konsoleprofiles.desktop
 usr/share/plasma/desktoptheme/default
+<<<<<<< HEAD
 usr/share/plasma/plasmoids/org.kde.plasma.activitypager/
+=======
+usr/share/plasma/plasmoids/org.kde.plasma.kickerdash/
+usr/share/plasma/plasmoids/org.kde.plasma.konsoleprofiles/
+>>>>>>> master
 usr/share/plasma/plasmoids/org.kde.plasma.calculator/
 usr/share/plasma/plasmoids/org.kde.plasma.colorpicker/
 usr/share/plasma/plasmoids/org.kde.plasma.comic/

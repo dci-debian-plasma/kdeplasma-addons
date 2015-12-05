@@ -1,5 +1,5 @@
 usr/lib/*/libplasmacomicprovidercore.so.1
-usr/lib/*/libplasmacomicprovidercore.so.1.0.0
+usr/lib/*/libplasmacomicprovidercore.so.1.*
 usr/lib/*/qt5/plugins/kpackage/packagestructure/plasma_packagestructure_comic.so
 usr/lib/*/qt5/plugins/plasma/dataengine/plasma_engine_comic.so
 usr/lib/*/qt5/plugins/plasma/dataengine/plasma_engine_konsoleprofiles.so

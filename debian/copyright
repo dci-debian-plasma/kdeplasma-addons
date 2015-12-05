@@ -1,312 +1,801 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: kdeplasma-addons
-Source: ftp://ftp.kde.org/pub/kde/unstable/plasma/
+Source: git://anongit.kde.org/kdeplasma-addons
 
 Files: *
-       /debian
-Copyright: © 2007-2014 Chusslove Illich <caslav.ilic@gmx.net>
-          © 2007-2010 Ivan Cukic <ivan.cukic+kde@gmail.com>
-           © 2010-2013 Sahran <sairan@computer.org> <sahran.ug@gmail.com>
-           © 2007-2014 Josep Ma. Ferrer <txemaq@gmail.com>
-           © 2008-2014 Andrej Vernekar <andrej.vernekar@moj.net> <andrejm@ubuntu.si> <andrej.vernerkar@moj.net>
-           © 2008-2012, 2014 Canonical Ltd
-           © 2008-2012, 2014 FIRST <email@address>
-           © 2008-2009 Slobodan Simic <slsimic@gmail.com>
-           © 2008-2014 Sergiu Bivol <sergiu@ase.md> <sergiu-bivol@mail.md> <sergiu.bivol@jurnaltv.md>
-           © 2007-2012 Enrique Matias Sanchez (aka Quique) <cronopios@gmail.com>
-           © 2008, 2010, 2012-2014 xavier <fjvinal@gmail.com> <francisco-javie.vinal@seg-social.es> <xavier.besnard@neuf.fr> <ktranslator31@yahoo.fr> <xavier.guerrin@gmail.com>
-           © 2008-2014 Freek de Kruijf <f.de.kruijf@gmail.com> <freekdekruijf@kde.nl> <f.de.kruijf@hetnet.nl> <freek@opensuse.org>
-           © 2007-2014 Stefan Asserhäll <stefan.asserhall@bredband.net>
-           © 2007-2014 Park Shinjo <peremen@gmail.com> <kde@peremen.name>
-           © 2008-2009, 2012-2014 Marce Villarino <mvillarino@kde-espana.es> <mvillarino@users.sourceforge.net> <mvillarino@gmail.com> <mvillarino@kde-espana.org>
-           © 2007-2012, 2014 Marek Laane <bald@smail.ee> <bald@starman.ee>
-           © 2008-2014 Yuri Chornoivan <yurchor@ukr.net>
-           © 2008-2010 Viesturs Zarins <viesturs.zarins@mii.lu.lv> <viesturs.zarins@algorego.com>
-           © 2010-2011 Dalibor Djuric <daliborddjuric@gmail.com>
-           © 2008-2014 Martin Schlander <mschlander@opensuse.org>
-           © 2009-2013 Bjørn Steensrud <bjornst@skogkatt.homelinux.org>
-           © 2009 Joan Maspons <joanmaspons@gmail.com>
-           © 2008-2012 Ni Hui <shuizhuyuanluo@126.com>
-           © 2008-2014 André Marcelo Alvarenga <alvarenga@kde.org> <andrealvarenga@gmx.net>
-           © 2009-2012 Kevin Scannell <kscanne@gmail.com>
-           © 2008-2012 Khoem Sokhem <khoemsokhem@khmeros.info>
-           © 2013 Chetan Khona <chetan@kompkin.com>
-           © 2008-2012 obsoleteman <tulliana@gmail.com>
-           © 2009-2011 Andrew Coles <andrew_coles@yahoo.co.uk>
-           © 2008-2014 Frederik Schwarzer <schwarzer@kde.org>
-           © 2008-2012, 2014 Manfred Wiese <m.j.wiese@web.de>
-           © 2008-2010, 2013 Frank Weng (a.k.a. Franklin) <franklin@goodhorse.idv.tw>
-           © 2009-2010 Axel Rousseau <axel@esperanto-jeunes.org>
-           © 2007-2012 A S Alam <aalam@users.sf.net>
-           © 2010-2014 Lasse Liehu <lliehu@kolumbus.fi> <lasse.liehu@gmail.com>
-           © 2007-2010, 2012 Richard Fric <richard.fric@kdemail.net>
-           © 2007-2009, 2014 Sönke Dibbern <s_dibbern@web.de>
-           © 2009-2010 Giulio Camuffo <giuliocamuffo@gmail.com>
-           © 2009-2011, 2013 Sveinn í Felli <sveinki@nett.is>
-           © 2009-2011, 2014 Alexander Potashev <aspotashev@gmail.com>
-           © 2009-2010 Björn Ruberg <bjoern@ruberg-wegener.de>
-           © 2007-2008, 2010-2014 Franklin Weng <franklin@goodhorse.idv.tw> <franklin@mail.everfocus.com.tw>
-           © 2008-2013 Jure Repinc <jlp@holodeck1.com>
-           © 2010-2012, 2014 Kristóf Kiszel <ulysses@kubuntu.org>
-           © 2008-2014 Vincenzo Reale <smart2128@baslug.org> <vincenzo.reale@teleunit.it>
-           © 2009-2010, 2012-2013 Joëlle Cornavin <jcorn@free.fr> <jcornavin@laposte.net> <jcornavi@club-internet.fr> <j.cornavin@sfr.fr>
-           © 2010-2011 Marko Dimjasevic <zarko.pintar@gmail.com> <marko@dimjasevic.net>
-           © 2009-2011 Michal Sulek <misurel@gmail.com>
-           © 2009-2010 Petros Vidalis <pvidalis@gmail.com> <p_vidalis@hotmail.com>
-           © 2009-2010 Andrej Dundovic <adundovi@gmail.com> <andrej@dundovic.com.hr>
-           © 2008-2010 Eirik U. Birkeland <eirbir@gmail.com>
-           © 2007-2010 Yukiko Bando <ybando@k6.dion.ne.jp>
-           © 2010-2014 Vít Pelčák <vit@pelcak.org>
-           © 2008-2009 zayed <zayed.alsaidi@gmail.com>
-           © 2008-2010 Andrius Štikonas <andrius@stikonas.eu>
-           © 2008-2009 Tamas Szanto <taszanto@gmail.com> <tszanto@interware.hu>
-           © 2007-2009 Toussis Manolis <manolis@koppermind.homelinux.org>
-           © 2011 Remigijus Jarmalavičius <remigijus@jarmalavicius.lt>
-           © 2008-2010, 2012 Luiz Fernando Ranghetti <elchevive@opensuse.org>
-           © 2007-2011 Marta Rybczyńska <kde-i18n@rybczynska.net>
-           © 2007 Tobias Koenig <tokoe@kde.org>
-           © 2013 Adrian Chaves Fernandez <adriyetichaves@gmail.com>
-           © 2010 Tommi Nieminen <tommi.nieminen@legisign.org> <translator@legisign.org>
-           © 2007-2009 Petri Damstén <damu@iki.fi>
-           © 2007-2009 mvillarino <mvillarino@users.sourceforge.net>
-           © 2007-2010 Karl Ove Hufthammer <karl@huftis.org>
-           © 2008-2010 Maciej Wikło <maciej.wiklo@wp.pl>
-           © 2008, 2010 Thanomsub Noppaburana <donga.nb@gmail.com>
-           © 2008, 2012 Amanpreet Singh Alam <aalam@users.sf.net> <apreet.alam@gmail.com>
-           © 2008, 2010-2011 Jean Cayron <jean.cayron@gmail.com>
-           © 2008-2012 Sebastian Kügler <sebas@kde.org>
-           © 2007-2008 Spiros Georgaras <sng@hellug.gr> <sngeorgaras@otenet.gr>
-           © 2008-2009 Nick Shaforostoff <shaforostoff@kde.ru> <shafff@ukr.net>
-           © 2008-2014 Burkhard Lück <lueck@hube-lueck.de>
-           © 2009-2010 Artem Sereda <overmind88@gmail.com>
-           © 2012, 2014 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
-           © 2008-2012 Matthias Fuchs <mat69@gmx.net>
-           © 2013-2014 Volkan Gezer <volkangezer@gmail.com>
-           © 2007-2010 Marco Martin <notmart@gmail.com>
-           © 2008, 2013-2014 David Edmundson <david@davidedmundson.co.uk> <davidedmundson@kde.org> <vertigo.rus@gmail.com> <david.baum@naraesk.eu>
-           © 2008-2009 Kristof Bal <kristof.bal@gmail.com>
-           © 2008-2013 Federico Zenith <federico.zenith@member.fsf.org> <zenith@chemeng.ntnu.no>
-           © 2007-2009 Free Software Foundation Inc.
-           © 2010, 2012 jack gurulian <jack.gurulian@gmail.com>
-           © 2009 Andrew Stromme <astromme@chatonka.com>
-           © 2009-2011 Panagiotis Papadopoulos <pano_90@gmx.net>
-           © 2007-2010 Thomas Reitelbach <tr@erdfunkstelle.de>
-           © 2007-2008 Santi <santi@kde-es.org>
-           © 2008 David Shalmiev <vertigo.rus@gmail.com>
-           © 2014 Steve Allewell <steve.allewell@gmail.com>
-           © 2008-2009 Ignacio Poggi <ignaciop.3@gmail.com> <ipoggi@qi.fcen.uba.ar>
-           ©  Laurenţiu Buzdugan <lbuz@rolix.org>
-           © 2006-2010, 2013 Aaron Seigo <aseigo@kde.org>
-           © 2007-2012 Maris Nartiss <maris.kde@gmail.com>
-           © 2008 Rinse de Vries <rinsedevries@kde.nl>
-           © 2007, 2009-2010, 2012 Donatas G. <dgvirtual@akl.lt>
-           © 2007-2008 Darafei Praliaskouski <komzpa@licei2.com> <komzpa@gmail.com>
-           © 2007-2008 Teemu Rytilahti <teemu.rytilahti@kde-fi.org> <teemu.rytilahti@d5k.net> <tpr@iki.fi>
-           © 2007-2010 Davide Bettio <davide.bettio@kdemail.net>
-           © 2009-2011 H. İbrahim Güngör <ibrahim@pardus.org.tr> <h.ibrahim.gungor@gmail.com>
-           © 2007-2009 Anne-Marie Mahfouf <annma@kde.org>
-           © 2010-2011, 2014 Feng Chao <chaofeng111@gmail.com> <rainofchaos@gmail.com>
-           © 2011-2013 Liudas Ališauskas <liudas@akmc.lt> <liudas.alisauskas@gmail.com>
-           © 2009 Philip Bocharov <rhfphd@mail.ru>
-           © 2012-2014 Roman Paholík <wizzardsk@gmail.com>
-           © 2009-2010 Johannes Obermayr <johannesobermayr@gmx.de>
-           © 2010-2012 Lukáš Tinkl <ltinkl@redhat.com> <lukas@kde.org>
-           © 2009-2010 Xosé <xosecalvo@gmail.com> <xosecalvo@edu.xunta.es>
-           © 2011-2013 Dimitrios Glentadakis <dglent@gmail.com>
-           © 2009 Matteo Agostinelli <agostinelli@gmail.com>
-           © 2012-2014 Antoni Bella Pérez <antonibella5@orange.es>
-           © 2007, 2009 Sharuzzaman Ahmat Raslan <sharuzzaman@myrealbox.com>
-           © 2011 CSSlayer <wengxt@gmail.com>
-           © 2010-2011 Ozan Çağlayan <ozan@pardus.org.tr>
-           © 2011-2014 Antonis Geralis <capoiosct@gmail.com>
-           © 2011-2012 Shaun Reich <shaun.reich@kdemail.net> <shaun.reich@blue-systems.com> <sreich@kde.org>
-           © 2010, 2012 Fumiaki Okushi <okushi@kde.gr.jp>
-           © 2008 Montel Laurent <montel@kde.org>
-           © 2010 Alexey Noskov <alexey.noskov@gmail.com>
-           © 2009 Madsen <jan-portugal@opensuse.org>
-           © 2012 Julia Dronova <juliette.tux@gmail.com>
-           © 2010, 2012 Einars Sprugis <einars8@gmail.com>
-           © 2008-2010 Nicolas Ternisien <nicolas.ternisien@gmail.com>
-           © 2007-2010 Ryan P. Bitanga <ryan.bitanga@gmail.com> <ephebiphobic@gmail.com>
-           © 2007-2008 Diniz Bortolotto <diniz.bortolotto@gmail.com>
-           © 2009 K Desktop Environment
-           © 2007, 2010 Chani Armitage <chanika@gmail.com> <chani@kde.org>
-           © 2011-2012, 2014 Weng Xuetian <wengxt@gmail.com>
-           © 2010 Laszlo Papp <djszapi@archlinux.us>
-           © 2007-2009 Jaime Robles <jaime@kde.org>
-           © 2012-2013 Tomáš Chvátal <tomas.chvatal@gmail.com>
-           © 2010 Gökmen Göksel <gokmen@pardus.org.tr>
-           © 2007, 2009 Mihael Simonic <smihael@gmail.com>
-           © 2008 Koray Löker <loker@pardus.org.tr>
-           © 2008-2009 Stanislas Zeller <uncensored.assault@gmail.com>
-           © 2007 Liang Qi <cavendish.qi@gmail.com>
-           © 2007, 2009 Michôł Òstrowsczi <michol@linuxcsb.org>
-           © 2008 Necmettin Begiter <necmettin.begiter@gmail.com>
-           © 2009 Giorgos Koutsikos <ragecryx@yahoo.gr>
-           © 2009 xalba <xalba@euskalnet.net>
-           © 2008 Alessandro Diaferia <alediaferia@gmail.com>
-           © 2008-2012 Eloy Cuadra <ecuadra@eloihr.net>
-           © 2012 Stelios <sstavra@gmail.com>
-           © 2008-2010, 2013-2014 Sebastien Renard <sebastien.renard@digitalfox.org> <renard@kde.org>
-           © 2011 Katarzyna Gierlach <gierlach_k@yahoo.pl>
-           © 2008 Dario Panico <dareus_persarumrex@fastwebnet.it>
-           © 2007 Jesper Thomschutz <jesperht@yahoo.com>
-           © 2008 Mikko Piippo <piippo@cc.helsinki.fi>
-           © 2009 Serhat Demirkol <serhat_demirkol@yahoo.com>
-           © 2010 Kiszel Kristóf <ulysses@kubuntu.org>
-           © 2007 Adrian Łubik <adrian5632@gmail.com>
-           © 2008-2010 Mickael Sibelle <kimael@gmail.com>
-           © 2012-2014 Balázs Úr <urbalazs@gmail.com>
-           © 2007-2008 Rob Scheepmaker <r.scheepmaker@student.utwente.nl>
-           © 2008 Ivan Petrouchtchak <fr.ivan@ukrainian-orthodox.org>
-           © 2007 Sahachart Anukulkitch <drrider@gmail.com>
-           © 2007 André Duffeck <duffeck@kde.org>
-           © 2010, 2012 Jason A. Donenfeld <jason@zx2c4.com>
-           © 2009 Wang Hoi <zeahot.hoi@gmail.org> <zealot.hoi@gmail.com>
-           © 2009 Elfun K. <elfun@riseup.net>
-           © 2009, 2011 Montel's FindFontConfig.cmake <montel@kde.org>
-           © 2009 Christoph Feck <christoph@maxiom.de>
-           © 2009 Richard Moore <rich@kde.org>
-           © 2008-2009 Ravishankar Shrivastava <raviratlami@yahoo.com> <raviratlami@aol.in>
-           © 2008 Thomas Coopman <thomas.coopman@gmail.com>
-           © 2009-2010 Friedrich W. H. Kossebau <kossebau@kde.org>
-           © 2010 Ignigo Salvador Azurmendi <xalba@euskalnet.net>
-           © 2014 Abdalrahim G. Fakhouri <abdilra7eem@yahoo.com>
-           © 2010, 2013 Yuri Efremov <yur.arh@gmail.com>
-           © 2010 Kira J. Fernandez <kirajfdez@gmail.com>
-           © 2009 G. Marker <jangerrit@weiler-marker.com>
-           © 2009 Ana Cecília Martins <anaceciliamb@gmail.com>
-           © 2008, 2010, 2012 Guillaume Pujol <guill.p@gmail.com>
-           © 2009 Malcolm Hunter <malcolm.hunter@gmx.co.uk>
-           © 2012 Lê Hoàng Phương <herophuong93@gmail.com>
-           © 2008-2009, 2012-2013 Diego Iastrubni <elcuco@kde.org>
-           © 2008 Jozef Vydra <vydrajojo@gmail.com>
-           © 2010 Marcus Vinícius de Andrade
-           ©  Gheyret Kenji <gheyret@gmail.com>
-           © 2009-2010, 2012 Geoffray Levasseur <geoffray.levasseurbrandin@numericable.fr> <jeff.brandin@gmail.com>
-           © 1996 Christopher Osburn <chris@speakeasy.org>
-           © 2008-2009 Julien Richard-Foy <julien.rf@no-log.org>
-           © 2012 Reza Fatahilah Shah <rshah0385@kireihana.com>
-           © 2008-2009 Auk Piseth <piseth_dv@khmeros.info>
-           © 2009 Anton Rasmussen <anton_rasmussen@yahoo.dk>
-           © 2007, 2009 Trever Fischer <wm161@wm161.net>
-           © 2008-2010 Christian Weilbach <dunsens@web.de>
-           © 2012-2014 Vit Pelcak <vit@pelcak.org>
-           © 2007 Robert Knight <robertknight@gmail.com>
-           © 2007 Kevin Ottens <ervin@kde.org>
-           © 2008-2009 Marcin Sękalski <senkal86@gmail.com>
-           © 2007-2008 Alexis Ménard <darktears31@gmail.com>
-           © 2010 Anton Kreuzkamp <akreuzkamp@web.de>
-           © 2010 Gama <marcus.gama@gmail.com>
-           © 2007 Youssef Chahibi <chahibi@gmail.com>
-           © 2012 Luís Gabriel Lima <lampih@gmail.com>
-           © 2013-2014 Vincent PINON <vpinon@april.org> <vincent.pinon@st.com>
-           © 2008 Laurent Montel <montel@kde.org>
-           © 2009 Cristina Yenyxe Gonzalez Garcia <the.blue.valkyrie@gmail.com>
-           © 2010-2011 Artur Chłond <eugenewolfe@o2.pl>
-           © 2013 Safa Alfulaij <safaalfulaij@hotmail.com>
-           © 2010-2011 Ireneusz Gierlach <irek.gierlach@gmail.com>
-           © 2010 Cedna <sptcedna@gmail.com>
-           © 2007 Pino Toscano <pino@kde.org> <toscano.pino@tiscali.it>
-           © 2010 Tomas Straupis <tomasstraupis@gmail.com>
-           © 2008 Eng Vannak <evannak@khmeros.info>
-           © 2010 Mindaugas Baranauskas <embar@users.berlios.de>
-           © 2009, 2011 Based on Laurent
-           © 1996 Lunar Outreach Services, <chris@speakeasy.org>
-           © 2008 Rafael Muñoz Cárdenas <bymenda@gmail.com>
-           © 2007 Francescu GAROBY <windu.2b@gmail.com>
-           © 2007 Antonio Vinci <mercurio@personellarete.it>
-           © 2009 Igor Trindade Oliveira <igor.oliveira@indt.org.br>
-           © 2008 Ian Monroe <ian@monroe.nu>
-           © 2009 Yasen Pramatarov <yasen@lindeas.com>
-           © 2007 Thomas Georgiou <tageorgiou@gmail.com>
-           © 2007 Jeff Cooper <weirdsox11@gmail.com>
-           © 2011 Arve Eriksson <031299870@telia.com>
-           © 2011 KDE <megaribi@epn.ba>
-           © 2008 Francescu Garoby <windu.2b@gmail.com>
-           © 2009 Adenilson Cavalcanti <adenilson.silva@idnt.org.br>
-           © 2014 Dimitris Kardarakos <dimkard@gmail.com>
-           © 2009 Ben Boeckel <mathstuf@gmail.com>
-           © 2010 Ruslan Nigmatullin <euroelessar@ya.ru>
-           © 2013 Alexander Lakhin <exclusion@gmail.com>
-           © 2008 Ignacio A. Poggi <ignaciop.3@gmail.com>
-           © 2014 JD <a@aleksandar.co.za>
-           © 2008-2009 Franciszek Janowski <nobange@poczta.onet.pl>
-           © 2008 Bruno Virlet <bvirlet@kdemail.net>
-           © 2011 Torbjörn Klatt <torbjoern.k@googlemail.com>
-           © 2011-2012 Marcus Gama <marcus.gama@gmail.com>
-           © 2008 Gerhard Gappmeier <gerhard.gappmeier@ascolab.com>
-           © 2008-2010 Michal Dutkiewicz aka Emdek <emdeck@gmail.com>
-           © 2010 Christian Tacke <lordbluelight@gmx.de>
-           © 2007-2009 Shawn Starr <shawn.starr@rogers.com>
-           © 2008 Zlatko Popov <zlatkopopov@fsa-bg.org>
-           © 2011, 2013 Nicola Ruggero <nicola@nxnt.org>
-           © 2009 Milan Baša <minkob@mail.t-com.sk>
-           © 2007-2008 Julien Rabier <julien.rabier@gmail.com>
-           © 2012 Jeremy Whiting <jpwhiting@kde.org>
-           © 2005-2007 Siraj Razick <siraj@kde.org>
-           © 2008 Georges Toth <gtoth@trypill.org>
-           © 2003-2007 Niklas Knutsson <nq@altern.org>
-           © 2008 Goodhorse <franklin@goodhorse.idv.tw>
-           © 2008 Andre Paulo Machado <andre.panm@gmail.com>
-           © 2007 Riccardo Iaconelli <riccardo@kde.org>
-           © 2008 Peter ZHOU <peterzhoulei@gmail.com>
-           © 2007 Alex Merry <alex.merry@kdemail.net>
-           © 2006 Tim Beaulen <tbscope@gmail.com>
-           © 2010 Alexander Wolf <alex.v.wolf@gmail.com>
-           © 2009 Robin Appelman <icewind@derideal.com>
-           © 2009 Anton Michael Havelund Rasmussen <anton_rasmussen@yahoo.dk>
-           © 2008 Denis Pesotsky <denis@kde.ru>
-           © 1998, 2000 Stephan Kulow <coolo@kde.org>
-           © 2008 kom <me@komzpa.net>
-           © 2007 Alexander Neundorf <neundorf@kde.org>
-           © 2009 Etienne <etienne@cyteen.net>
-           © 2009 Iñigo Salvador Azurmendi <xalba@euskalnet.net>
-           © 2009 Mateusz "Święty" Pogorzelski <vlogical@o2.pl>
-           © 2008 Jannick Kuhr <opensource@kuhr.org>
-           © 2010 Harald Sitter <apachelogger@ubuntu.com>
-           © 2008 Luciano Montanaro <mikelima@cirulla.net>
-           © 2010 Mehrdad Momeny <mehrdad.momeny@gmail.com>
-           © 2007 Ryan Bitanga <ephebiphobic@gmail.com>
-           © 2009 Bram Schoenmakers <bramschoenmakers@kde.nl>
-           © 2009 Manuel Tortosa <manutortosa@gmail.com>
-           © 2008 Pesotsky Denis <denis@kde.ru>
-           © 2008 Edwin Jablonski <carmack@vp.pl>
-           © 2008 Jean-Jacques FINAZZI <mrjay01@users.sourceforge.net>
-           © 2008 Mathieu Schopfer <mat.schopfer@bluewin.ch>
-           © 2009 Kamil Dziuba <kamil_dziuba@o2.pl>
-           © 2008 Amine Say <aminesay@yahoo.fr>
-           © 2009 M. Jakóbik <cheater1@wp.pl>
-           © 2010 Phuwanat Sakornsakolpat <narachai@gmail.com>
-           © 2007 Vladimir Kuznetsov <ks.vladimir@gmail.com>
-           © 2009 Milan Hrala <hrala.milan@gmail.com>
-           © 2008 Paweł Wieczorek <pwiecz@mixbox.pl>
-           © 2008-2009 Serdar Soytetir <tulliana@gmail.com>
-           © 2008 Gianmatteo Fabbri <gianmatteo.fabbri@alice.it>
-           © 2011 Nikolay Rysev <mad.f3ka@gmail.com>
-           © 2009 Mikael Lammentausta <mikael.lammentausta+kdetrans@gmail.com>
-           © 2009 Tamnas Szanto <tszanto@interware.hu>
-           © 2011 Raphael Kubo da Costa <kubito@gmail.com>
-           © 2008 Mario Young <mayeco@kdemail.net>
-           © 2007 Simon Hausmann <hausmann@kde.org>
-           © 2009 Quentin Harbulot <kant_120@hotmail.fr>
-           © 2008 Rolf Eike Beer <kde@opensource.sf-tec.de>
-           © 2008 Paul Morin <m.paulmorin@gmail.com>
-           © 2009 Marek Walczak <kubdat@onet.eu>
-           © 2011 Cristian Oneț <onet.cristian@gmail.com>
-           © 2007 aminesay <aminesay@yahoo.fr>
-           © 2008 Osman Tosun <rainman.neu@gmail.com>
-           © 2010 Dario Freddi <drf@kde.org>
-           © 2010 EuGene Wolfe <eugenewolfe@o2.pl>
-           © 2007 David Faure <faure@kde.org>
-           © 2010 Fatih Aşıcı <fatih@pardus.org.tr>
-           © 2009 Glentadakis Dimitrios <dglent@gmail.com>
-           © 2008 MhamedBJ <benjmaamhamed@yahoo.com>
-           © 2009 Olivier Delaune <olivier.delaune@wanadoo.fr>
-           © 2008 Maciej Raczyński <t3rererere@o2.pl>
-           © 2010 Mirek Sabiniewicz <m.sabiniewicz@gmail.com>
-           © 2009 OsamaKhalid <osamak.wfm@gmail.com>
-           © 2007 doutor.zero <doutor.zero@gmail.com>
+Copyright: 2013, Aaron Seigo <aseigo@kde.org>
+           2013-2015, Aleix Pol Gonzalez <aleixpol@blue-systems.com>
+           2008, Alessandro Diaferia <alediaferia@gmail.com>
+           2007, Alexis Ménard <darktears31@gmail.com>
+           2007, André Duffeck <duffeck@kde.org>
+           2007-2008, Anne-Marie Mahfouf <annma@kde.org>
+           2007, Antonio Vinci <mercurio@personellarete.it>
+           2014, Ashish Madeti <ashishmadeti@gmail.com>
+           2013, Aurélien Gâteau <agateau@kde.org>
+           2009, Ben Boeckel <MathStuf@gmail.com>
+           2015, Bernhard Friedreich <friesoft@gmail.com>
+           2013, Bhushan Shah <bhush94@gmail.com>
+           2009-2010, Björn Ruberg <bjoern@ruberg-wegener.de>
+           2011-2014, Weng Xuetian <wengxt@gmail.com>
+           2007, Chani Armitage <chanika@gmail.com>
+           2008-2010, Christian Weilbach <dunsens@web.de>
+           2012-2014, David Edmundson <davidedmundson@kde.org >
+           2014, David Edmundson <davidedmundson@kde.org>
+           2007-2014, Davide Bettio <davide.bettio@kdemail.net>
+           2014, Eike Hein <hein@kde.org>
+           2011, Federico Zenith <federico.zenith@member.fsf.org>
+           1989-1991, Free Software Foundation, Inc
+           2008, Georges Toth <gtoth@trypill.org>
+           2008, Gerhard Gappmeier <gerhard.gappmeier@ascolab.com>
+           2013, Heena Mahour <heena393@gmail.com>
+           2007, Henry Stanaland <stanaland@gmail.com>
+           2008, Ian Monroe <ian@monroe.nu>
+           2007-2010, Ivan Cukic <ivan.cukic@kde.org>
+           2014, Jeremy Whiting <jpwhiting@kde.org>
+           2007, Jesper Thomschutz <jesperht@yahoo.com>
+           2014, Kai Uwe Broulik <kde@privat.broulik.de>
+           2012, Luiz Romário Santana Rios <luizromario@gmail.com>
+           2012, Luís Gabriel Lima <lampih@gmail.com>
+           2015, Marco Martin <mart@kde.org>
+           2007-2009, Marco Martin <notmart@gmail.com>
+           2011-2013, Martin Gräßlin <mgraesslin@kde.org>
+           2013, Martin Klapetek <mklapetek@kde.org>
+           2014, Martin Yrjölä <martin.yrjola@gmail.com>
+           2008-2012, Matthias Fuchs <mat69@gmx.net>
+           2008-2010, Michal Dutkiewicz aka Emdek <emdeck@gmail.com>
+           2014, Mikhail Ivchenko <ematirov@gmail.com>
+           2008, Montel Laurent <montel@kde.org>
+           2008, Nick Shaforostoff <shaforostoff@kde.ru>
+           2008-2009, Olivier Goffart <ogoffart@kde.org>
+           2008, Peter ZHOU <peterzhoulei@gmail.com>
+           2007-2009, Petri Damstén <damu@iki.fi>
+           2007, Pino Toscano <pino@kde.org>
+           2012, Reza Fatahilah Shah <rshah0385@kireihana.com>
+           2007, Riccardo Iaconelli <riccardo@kde.org>
+           2008, Rob Scheepmaker <r.scheepmaker@student.utwente.nl>
+           2010, Ruslan Nigmatullin <euroelessar@ya.ru>
+           2008, Ryan P. Bitanga <ryan.bitanga@gmail.com>
+           2009-2013, Sebastian Kügler <sebas@kde.org>
+           2011-2012, Shaun Reich <shaun.reich@kdemail.net>
+           2007-2009, Shawn Starr <shawn.starr@rogers.com>
+           2005-2007, Siraj Razick <siraj@kde.org>
+           1998-2000, Stephan Kulow <coolo@kde.org>
+           2008, Thomas Coopman <thomas.coopman@gmail.com>
+           2007, Thomas Georgiou <TAGeorgiou@gmail.com> and Jeff Cooper <weirdsox11@gmail.com>
+           2007, Tobias Koenig <tokoe@kde.org>
+           2009, Wang Hoi <zealot.hoi@gmail.com>
+           2007-2011, Free Software Foundation, Inc
+           2007-2010, Ivan Čukić
+           2010-2012, Jason A. Donenfeld <Jason@zx2c4.com>
+           2009, K Desktop Environment
+           2008, Rosetta Contributors and Canonical Ltd 2008
+           2009, Rosetta Contributors and Canonical Ltd 2009
+           2010, Rosetta Contributors and Canonical Ltd 2010
+           2011, Rosetta Contributors and Canonical Ltd 2011
+           2012, Rosetta Contributors and Canonical Ltd 2012
+           2014, Rosetta Contributors and Canonical Ltd 2014
+           2007-2015, This_file_is_part_of_KDE
+License: GPL-2+
+
+Files: applets/bubblemon/src/bubble.cpp
+       applets/bubblemon/src/bubble.h
+       applets/kimpanel/backend/ibus/ibus15/gdkkeynames_p.c
+       applets/kimpanel/backend/ibus/ibus15/gdkkeynames_p.h
+       applets/kimpanel/backend/ibus/ibus15/gdkkeysyms_p.h
+       applets/kimpanel/backend/ibus/ibus15/gtkaccelparse_p.c
+       applets/kimpanel/backend/ibus/ibus15/gtkaccelparse_p.h
+       applets/kimpanel/backend/ibus/ibus15/keyname-table.h
+       applets/luna/phases.cpp
+       applets/microblog/postwidget.cpp
+       applets/microblog/postwidget.h
+       applets/qalculate/outputlabel.cpp
+       applets/qalculate/outputlabel.h
+       applets/qalculate/qalculate_applet.cpp
+       applets/qalculate/qalculate_applet.h
+       applets/qalculate/qalculate_engine.cpp
+       applets/qalculate/qalculate_engine.h
+       applets/qalculate/qalculate_graphicswidget.cpp
+       applets/qalculate/qalculate_graphicswidget.h
+       applets/qalculate/qalculate_history.cpp
+       applets/qalculate/qalculate_history.h
+       applets/qalculate/qalculate_labels.cpp
+       applets/qalculate/qalculate_labels.h
+       applets/qalculate/qalculate_settings.cpp
+       applets/qalculate/qalculate_settings.h
+       applets/rssnow/header.cpp
+       applets/rssnow/header.h
+       applets/rssnow/scroller.cpp
+       applets/rssnow/scroller.h
+       applets/rssnow/single-feed.cpp
+       applets/rssnow/single-feed.h
+       applets/weatherstation/lcd.cpp
+       applets/weatherstation/lcd.h
+       applets/webslice/kgraphicswebslice.cpp
+       applets/webslice/kgraphicswebslice.h
+       applets/webslice/kwebslice.cpp
+       applets/webslice/kwebslice.h
+       containments/groupingdesktop/desktop/groupingdesktop.cpp
+       containments/groupingdesktop/desktop/groupingdesktop.h
+       containments/groupingdesktop/griddesktop/griddesktop.cpp
+       containments/groupingdesktop/griddesktop/griddesktop.h
+       containments/groupingdesktop/lib/abstractgroup.cpp
+       containments/groupingdesktop/lib/abstractgroup.h
+       containments/groupingdesktop/lib/abstractgroup_p.h
+       containments/groupingdesktop/lib/freehandle.cpp
+       containments/groupingdesktop/lib/freehandle.h
+       containments/groupingdesktop/lib/gridhandle.cpp
+       containments/groupingdesktop/lib/gridhandle.h
+       containments/groupingdesktop/lib/groupexplorer/explorerwindow.cpp
+       containments/groupingdesktop/lib/groupexplorer/explorerwindow.h
+       containments/groupingdesktop/lib/groupexplorer/groupexplorer.cpp
+       containments/groupingdesktop/lib/groupexplorer/groupexplorer.h
+       containments/groupingdesktop/lib/groupexplorer/groupicon.cpp
+       containments/groupingdesktop/lib/groupexplorer/groupicon.h
+       containments/groupingdesktop/lib/groupexplorer/groupiconlist.cpp
+       containments/groupingdesktop/lib/groupexplorer/groupiconlist.h
+       containments/groupingdesktop/lib/groupexplorer/grouplist.cpp
+       containments/groupingdesktop/lib/groupexplorer/grouplist.h
+       containments/groupingdesktop/lib/groupfactory.cpp
+       containments/groupingdesktop/lib/groupfactory_p.h
+       containments/groupingdesktop/lib/groupinfo.cpp
+       containments/groupingdesktop/lib/groupinfo.h
+       containments/groupingdesktop/lib/groupingcontainment.cpp
+       containments/groupingdesktop/lib/groupingcontainment.h
+       containments/groupingdesktop/lib/groupingcontainment_export.h
+       containments/groupingdesktop/lib/groupingcontainment_p.h
+       containments/groupingdesktop/lib/groups/floatinggroup.cpp
+       containments/groupingdesktop/lib/groups/floatinggroup.h
+       containments/groupingdesktop/lib/groups/flowgroup.cpp
+       containments/groupingdesktop/lib/groups/flowgroup.h
+       containments/groupingdesktop/lib/groups/gridgroup.cpp
+       containments/groupingdesktop/lib/groups/gridgroup.h
+       containments/groupingdesktop/lib/groups/gridmanager.cpp
+       containments/groupingdesktop/lib/groups/gridmanager.h
+       containments/groupingdesktop/lib/groups/stackinggroup.cpp
+       containments/groupingdesktop/lib/groups/stackinggroup.h
+       containments/groupingdesktop/lib/groups/tabbinggroup.cpp
+       containments/groupingdesktop/lib/groups/tabbinggroup.h
+       containments/groupingdesktop/lib/handle.cpp
+       containments/groupingdesktop/lib/handle.h
+       containments/groupingdesktop/lib/spacer.cpp
+       containments/groupingdesktop/lib/spacer.h
+       containments/groupingdesktop/panel/groupingpanel.cpp
+       containments/groupingdesktop/panel/groupingpanel.h
+       dataengines/microblog/imagesource.cpp
+       dataengines/microblog/imagesource.h
+       dataengines/microblog/koauth.cpp
+       dataengines/microblog/koauth.h
+       dataengines/microblog/koauthwebhelper.cpp
+       dataengines/microblog/koauthwebhelper.h
+       dataengines/microblog/timelineservice.cpp
+       dataengines/microblog/timelineservice.h
+       dataengines/microblog/timelinesource.cpp
+       dataengines/microblog/timelinesource.h
+       dataengines/microblog/tweetjob.cpp
+       dataengines/microblog/tweetjob.h
+       dataengines/microblog/usersource.cpp
+       dataengines/microblog/usersource.h
+       libs/lancelot-datamodels/Applications.cpp
+       libs/lancelot-datamodels/Applications.h
+       libs/lancelot-datamodels/Applications_p.h
+       libs/lancelot-datamodels/AvailableModels.cpp
+       libs/lancelot-datamodels/AvailableModels.h
+       libs/lancelot-datamodels/BaseMergedModel.cpp
+       libs/lancelot-datamodels/BaseMergedModel.h
+       libs/lancelot-datamodels/BaseModel.cpp
+       libs/lancelot-datamodels/BaseModel.h
+       libs/lancelot-datamodels/ContactsKopete.cpp
+       libs/lancelot-datamodels/ContactsKopete.h
+       libs/lancelot-datamodels/Devices.cpp
+       libs/lancelot-datamodels/Devices.h
+       libs/lancelot-datamodels/Devices_p.h
+       libs/lancelot-datamodels/DummyModel_p.cpp
+       libs/lancelot-datamodels/FavoriteApplications.cpp
+       libs/lancelot-datamodels/FavoriteApplications.h
+       libs/lancelot-datamodels/FolderModel.cpp
+       libs/lancelot-datamodels/FolderModel.h
+       libs/lancelot-datamodels/Logger.cpp
+       libs/lancelot-datamodels/Logger.h
+       libs/lancelot-datamodels/MessagesKmail.cpp
+       libs/lancelot-datamodels/MessagesKmail.h
+       libs/lancelot-datamodels/MessagesKmail_p.h
+       libs/lancelot-datamodels/NewDocuments.cpp
+       libs/lancelot-datamodels/NewDocuments.h
+       libs/lancelot-datamodels/OpenDocuments.cpp
+       libs/lancelot-datamodels/OpenDocuments.h
+       libs/lancelot-datamodels/OpenDocuments_p.h
+       libs/lancelot-datamodels/Places.cpp
+       libs/lancelot-datamodels/Places.h
+       libs/lancelot-datamodels/RecentDocuments.cpp
+       libs/lancelot-datamodels/RecentDocuments.h
+       libs/lancelot-datamodels/Runner.cpp
+       libs/lancelot-datamodels/Runner.h
+       libs/lancelot-datamodels/Serializator.cpp
+       libs/lancelot-datamodels/Serializator.h
+       libs/lancelot-datamodels/SystemActions.cpp
+       libs/lancelot-datamodels/SystemActions.h
+       libs/lancelot-datamodels/SystemActions_p.h
+       libs/lancelot-datamodels/SystemServices.cpp
+       libs/lancelot-datamodels/SystemServices.h
+       libs/lancelot-datamodels/XbelModel.cpp
+       libs/lancelot-datamodels/XbelModel.h
+       libs/lancelot/Global.cpp
+       libs/lancelot/Global.h
+       libs/lancelot/Global_p.h
+       libs/lancelot/lancelot.h
+       libs/lancelot/lancelot_export.h
+       libs/lancelot/layouts/CardLayout.cpp
+       libs/lancelot/layouts/CardLayout.h
+       libs/lancelot/layouts/ColumnLayout.cpp
+       libs/lancelot/layouts/ColumnLayout.h
+       libs/lancelot/layouts/FlipLayout.cpp
+       libs/lancelot/layouts/FlipLayout.h
+       libs/lancelot/layouts/FullBorderLayout.cpp
+       libs/lancelot/layouts/FullBorderLayout.h
+       libs/lancelot/layouts/NodeLayout.cpp
+       libs/lancelot/layouts/NodeLayout.h
+       libs/lancelot/models/ActionListModel.cpp
+       libs/lancelot/models/ActionListModel.h
+       libs/lancelot/models/ActionTreeModel.cpp
+       libs/lancelot/models/ActionTreeModel.h
+       libs/lancelot/models/ActionTreeModelProxy.cpp
+       libs/lancelot/models/ActionTreeModelProxy.h
+       libs/lancelot/models/MergedActionListModel.cpp
+       libs/lancelot/models/MergedActionListModel.h
+       libs/lancelot/models/PlasmaServiceListModel.cpp
+       libs/lancelot/models/PlasmaServiceListModel.h
+       libs/lancelot/models/StandardActionListModel.cpp
+       libs/lancelot/models/StandardActionListModel.h
+       libs/lancelot/models/StandardActionTreeModel.cpp
+       libs/lancelot/models/StandardActionTreeModel.h
+       libs/lancelot/widgets/ActionListView.cpp
+       libs/lancelot/widgets/ActionListView.h
+       libs/lancelot/widgets/ActionListView_p.h
+       libs/lancelot/widgets/BasicWidget.cpp
+       libs/lancelot/widgets/BasicWidget.h
+       libs/lancelot/widgets/CustomItemBackground_p.cpp
+       libs/lancelot/widgets/CustomItemBackground_p.h
+       libs/lancelot/widgets/CustomListView.cpp
+       libs/lancelot/widgets/CustomListView.h
+       libs/lancelot/widgets/ExtenderButton.cpp
+       libs/lancelot/widgets/ExtenderButton.h
+       libs/lancelot/widgets/HoverIcon.cpp
+       libs/lancelot/widgets/HoverIcon.h
+       libs/lancelot/widgets/Panel.cpp
+       libs/lancelot/widgets/Panel.h
+       libs/lancelot/widgets/PassagewayView.cpp
+       libs/lancelot/widgets/PassagewayView.h
+       libs/lancelot/widgets/PopupList.cpp
+       libs/lancelot/widgets/PopupList.h
+       libs/lancelot/widgets/PopupList_p.h
+       libs/lancelot/widgets/PopupMenu.cpp
+       libs/lancelot/widgets/PopupMenu.h
+       libs/lancelot/widgets/ResizeBordersPanel.cpp
+       libs/lancelot/widgets/ResizeBordersPanel.h
+       libs/lancelot/widgets/ScrollBar.cpp
+       libs/lancelot/widgets/ScrollBar.h
+       libs/lancelot/widgets/ScrollPane.cpp
+       libs/lancelot/widgets/ScrollPane.h
+       libs/lancelot/widgets/TabBar.cpp
+       libs/lancelot/widgets/TabBar.h
+       libs/lancelot/widgets/Widget.cpp
+       libs/lancelot/widgets/Widget.h
+       libs/plasmaweather/plasmaweather_export.h
+       libs/plasmaweather/weatherconfig.cpp
+       libs/plasmaweather/weatherconfig.h
+       libs/plasmaweather/weatheri18ncatalog.cpp
+       libs/plasmaweather/weatheri18ncatalog.h
+       libs/plasmaweather/weatherlocation.cpp
+       libs/plasmaweather/weatherlocation.h
+       libs/plasmaweather/weatherpopupapplet.cpp
+       libs/plasmaweather/weatherpopupapplet.h
+       libs/plasmaweather/weathervalidator.cpp
+       libs/plasmaweather/weathervalidator.h
+       runners/browserhistory/browserhistory.cpp
+       runners/browserhistory/browserhistory.h
+       runners/katesessions/katesessions.cpp
+       runners/katesessions/katesessions.h
+       runners/konquerorsessions/konquerorsessions.cpp
+       runners/konquerorsessions/konquerorsessions.h
+       runners/konsolesessions/konsolesessions.cpp
+       runners/konsolesessions/konsolesessions.h
+       runners/mediawiki/mediawiki.cpp
+       runners/mediawiki/mediawiki.h
+       runners/mediawiki/mediawikirunner.cpp
+       runners/mediawiki/mediawikirunner.h
+       runners/translator/translator.cpp
+       runners/translator/translator.h
+       runners/translator/translatorjob.cpp
+       runners/translator/translatorjob.h
+       runners/youtube/tubejob.cpp
+       runners/youtube/tubejob.h
+       runners/youtube/youtube.cpp
+       runners/youtube/youtube.h
+       wallpapers/haenau/contents/ui/BackgroundElement.qml
+       wallpapers/haenau/contents/ui/BottomBackgroundElement.qml
+       wallpapers/haenau/contents/ui/RightBackgroundElement.qml
+       wallpapers/haenau/contents/ui/main.qml
+       wallpapers/hunyango/contents/ui/main.qml
+Copyright: 2006-2009, Aaron Seigo <aseigo@kde.org>
+           2007, Alex Merry <alex.merry@kdemail.net>
+           2008, Alexis Ménard <darktears31@gmail.com>
+           2009, Ana Cecília Martins <anaceciliamb@gmail.com>
+           2009, Andrew Coles <andrew_coles@yahoo.co.uk>
+           2010, Chani Armitage <chani@kde.org>
+           2010, Christian Tacke <lordbluelight@gmx.de>
+           1996, Christopher Osburn <chris@speakeasy.org>
+           1996, Christopher Osburn, Lunar Outreach Services
+           2013, David Baum <david.baum@naraesk.eu>
+           2007, David Faure <faure@kde.org>
+           2005-2009, GNOME Foundation
+           2009-2010, Giulio Camuffo <giuliocamuffo@gmail.com>
+           2007-2009, Ivan Cukic <ivan.cukic+kde@gmail.com>
+           2007-2010, Ivan Cukic <ivan.cukic@kde.org>
+           2007, Kevin Ottens <ervin@kde.org>
+           2012, Marco Martin <mart@kde.org>
+           2008-2009, Marco Martin <notmart@gmail.com>
+           2009, Matteo Agostinelli <agostinelli@gmail.com>
+           2008, Montel Laurent
+           2008, Montel Laurent <montel@kde.org>
+           2003-2007, Niklas Knutsson <nq@altern.org>
+           1995-1997, Peter Mattis, Spencer Kimball and Josh MacDonald
+           2007-2009, Petri Damstén <damu@iki.fi>
+           2009, Richard Moore <rich@kde.org>
+           2007-2008, Rob Scheepmaker <r.scheepmaker@student.utwente.nl>
+           2007, Robert Knight <robertknight@gmail.com>
+           2009-2010, Ryan P. Bitanga <ryan.bitanga@gmail.com>
+           2008-2012, Sebastian Kügler <sebas@kde.org>
+           2012, Shaun Reich <shaun.reich@blue-systems.com>
+           2012, Shaun Reich <sreich@kde.org>
+           2009, Trever Fischer <wm161@wm161.net>
+License: LGPL-2+
+
+Files: po/ca/konqprofiles.po
+       po/ca/konsoleprofiles.po
+       po/ca/liblancelot-datamodels.po
+       po/ca/libplasma_groupingcontainment.po
+       po/ca/plasma_applet_CharSelectApplet.po
+       po/ca/plasma_applet_bookmarks.po
+       po/ca/plasma_applet_groupingpanel.po
+       po/ca/plasma_applet_incomingmsg.po
+       po/ca/plasma_applet_knowledgebase.po
+       po/ca/plasma_applet_kolourpicker.po
+       po/ca/plasma_applet_luna.po
+       po/ca/plasma_applet_org.kde.plasma.calculator.po
+       po/ca/plasma_applet_org.kde.plasma.showdesktop.po
+       po/ca/plasma_applet_org.kde.plasma.systemloadviewer.po
+       po/ca/plasma_applet_plasmaboard.po
+       po/ca/plasma_applet_previewer.po
+       po/ca/plasma_applet_qalculate.po
+       po/ca/plasma_applet_qstardict.po
+       po/ca/plasma_applet_showdashboard.po
+       po/ca/plasma_applet_spellcheck.po
+       po/ca/plasma_applet_webslice.po
+       po/ca/plasma_runner_CharacterRunner.po
+       po/ca/plasma_runner_audioplayercontrol.po
+       po/ca/plasma_runner_datetime.po
+       po/ca/plasma_runner_events.po
+       po/ca/plasma_runner_kopete.po
+       po/ca/plasma_runner_krunner_dictionary.po
+       po/ca/plasma_runner_mediawiki.po
+       po/ca/plasma_runner_translator.po
+       po/ca/plasma_runner_youtube.po
+       po/ca@valencia/konqprofiles.po
+       po/ca@valencia/konsoleprofiles.po
+       po/ca@valencia/liblancelot-datamodels.po
+       po/ca@valencia/libplasma_groupingcontainment.po
+       po/ca@valencia/plasma_applet_CharSelectApplet.po
+       po/ca@valencia/plasma_applet_bookmarks.po
+       po/ca@valencia/plasma_applet_groupingpanel.po
+       po/ca@valencia/plasma_applet_incomingmsg.po
+       po/ca@valencia/plasma_applet_knowledgebase.po
+       po/ca@valencia/plasma_applet_kolourpicker.po
+       po/ca@valencia/plasma_applet_luna.po
+       po/ca@valencia/plasma_applet_org.kde.plasma.calculator.po
+       po/ca@valencia/plasma_applet_org.kde.plasma.showdesktop.po
+       po/ca@valencia/plasma_applet_plasmaboard.po
+       po/ca@valencia/plasma_applet_previewer.po
+       po/ca@valencia/plasma_applet_qalculate.po
+       po/ca@valencia/plasma_applet_qstardict.po
+       po/ca@valencia/plasma_applet_showdashboard.po
+       po/ca@valencia/plasma_applet_spellcheck.po
+       po/ca@valencia/plasma_applet_webslice.po
+       po/ca@valencia/plasma_runner_CharacterRunner.po
+       po/ca@valencia/plasma_runner_audioplayercontrol.po
+       po/ca@valencia/plasma_runner_datetime.po
+       po/ca@valencia/plasma_runner_events.po
+       po/ca@valencia/plasma_runner_kopete.po
+       po/ca@valencia/plasma_runner_krunner_dictionary.po
+       po/ca@valencia/plasma_runner_mediawiki.po
+       po/ca@valencia/plasma_runner_translator.po
+       po/ca@valencia/plasma_runner_youtube.po
+       po/uk/konqprofiles.po
+       po/uk/konsoleprofiles.po
+       po/uk/lancelot.po
+       po/uk/liblancelot-datamodels.po
+       po/uk/libplasma_groupingcontainment.po
+       po/uk/libplasmaweather.po
+       po/uk/plasma_applet_CharSelectApplet.po
+       po/uk/plasma_applet_binaryclock.po
+       po/uk/plasma_applet_bookmarks.po
+       po/uk/plasma_applet_bubblemon.po
+       po/uk/plasma_applet_comic.po
+       po/uk/plasma_applet_fileWatcher.po
+       po/uk/plasma_applet_frame.po
+       po/uk/plasma_applet_groupingpanel.po
+       po/uk/plasma_applet_incomingmsg.po
+       po/uk/plasma_applet_knowledgebase.po
+       po/uk/plasma_applet_kolourpicker.po
+       po/uk/plasma_applet_leavenote.po
+       po/uk/plasma_applet_life.po
+       po/uk/plasma_applet_luna.po
+       po/uk/plasma_applet_magnifique.po
+       po/uk/plasma_applet_microblog.po
+       po/uk/plasma_applet_news.po
+       po/uk/plasma_applet_org.kde.kimpanel.po
+       po/uk/plasma_applet_org.kde.plasma.calculator.po
+       po/uk/plasma_applet_org.kde.plasma.comic.po
+       po/uk/plasma_applet_org.kde.plasma.fifteenpuzzle.po
+       po/uk/plasma_applet_org.kde.plasma.fuzzyclock.po
+       po/uk/plasma_applet_org.kde.plasma.notes.po
+       po/uk/plasma_applet_org.kde.plasma.quickshare.po
+       po/uk/plasma_applet_org.kde.plasma.showdesktop.po
+       po/uk/plasma_applet_org.kde.plasma.systemloadviewer.po
+       po/uk/plasma_applet_org.kde.plasma.timer.po
+       po/uk/plasma_applet_plasmaboard.po
+       po/uk/plasma_applet_previewer.po
+       po/uk/plasma_applet_qalculate.po
+       po/uk/plasma_applet_qstardict.po
+       po/uk/plasma_applet_rssnow.po
+       po/uk/plasma_applet_showdashboard.po
+       po/uk/plasma_applet_spellcheck.po
+       po/uk/plasma_applet_unitconverter.po
+       po/uk/plasma_applet_weather.po
+       po/uk/plasma_applet_weatherstation.po
+       po/uk/plasma_applet_webslice.po
+       po/uk/plasma_packagestructure_comic.po
+       po/uk/plasma_runner_CharacterRunner.po
+       po/uk/plasma_runner_audioplayercontrol.po
+       po/uk/plasma_runner_browserhistory.po
+       po/uk/plasma_runner_contacts.po
+       po/uk/plasma_runner_converterrunner.po
+       po/uk/plasma_runner_datetime.po
+       po/uk/plasma_runner_events.po
+       po/uk/plasma_runner_katesessions.po
+       po/uk/plasma_runner_konquerorsessions.po
+       po/uk/plasma_runner_konsolesessions.po
+       po/uk/plasma_runner_kopete.po
+       po/uk/plasma_runner_krunner_dictionary.po
+       po/uk/plasma_runner_mediawiki.po
+       po/uk/plasma_runner_spellcheckrunner.po
+       po/uk/plasma_runner_translator.po
+       po/uk/plasma_runner_youtube.po
+       runners/characters/charrunner.cpp
+       runners/characters/charrunner.h
+       runners/characters/charrunner_config.cpp
+       runners/characters/charrunner_config.h
+Copyright: 2010, Anton Kreuzkamp <akreuzkamp@web.de>
+           2008-2015, This_file_is_part_of_KDE
+License: LGPL-2.1+3+KDEeV
+
+Files: applets/leavenote/leavenote.cpp
+       applets/leavenote/leavenote.h
+       dataengines/comic/cachedprovider.cpp
+       dataengines/comic/cachedprovider.h
+       dataengines/comic/comic.cpp
+       dataengines/comic/comic.h
+       dataengines/comic/comic_package.cpp
+       dataengines/comic/comic_package.h
+       dataengines/comic/comic_package_plugin.cpp
+       dataengines/comic/comicprovider.cpp
+       dataengines/comic/comicprovider.h
+       dataengines/comic/comicproviderkross.cpp
+       dataengines/comic/comicproviderkross.h
+       dataengines/comic/comicproviderwrapper.cpp
+       dataengines/comic/comicproviderwrapper.h
+       dataengines/microblog/twitterengine.cpp
+       dataengines/microblog/twitterengine.h
+       po/ca/lancelot.po
+       po/ca/libplasmaweather.po
+       po/ca/plasma_applet_binaryclock.po
+       po/ca/plasma_applet_bubblemon.po
+       po/ca/plasma_applet_comic.po
+       po/ca/plasma_applet_fileWatcher.po
+       po/ca/plasma_applet_frame.po
+       po/ca/plasma_applet_leavenote.po
+       po/ca/plasma_applet_life.po
+       po/ca/plasma_applet_magnifique.po
+       po/ca/plasma_applet_microblog.po
+       po/ca/plasma_applet_news.po
+       po/ca/plasma_applet_org.kde.kimpanel.po
+       po/ca/plasma_applet_org.kde.plasma.comic.po
+       po/ca/plasma_applet_org.kde.plasma.fifteenpuzzle.po
+       po/ca/plasma_applet_org.kde.plasma.fuzzyclock.po
+       po/ca/plasma_applet_org.kde.plasma.notes.po
+       po/ca/plasma_applet_org.kde.plasma.quickshare.po
+       po/ca/plasma_applet_org.kde.plasma.timer.po
+       po/ca/plasma_applet_rssnow.po
+       po/ca/plasma_applet_unitconverter.po
+       po/ca/plasma_applet_weather.po
+       po/ca/plasma_applet_weatherstation.po
+       po/ca/plasma_packagestructure_comic.po
+       po/ca/plasma_runner_browserhistory.po
+       po/ca/plasma_runner_contacts.po
+       po/ca/plasma_runner_converterrunner.po
+       po/ca/plasma_runner_katesessions.po
+       po/ca/plasma_runner_konquerorsessions.po
+       po/ca/plasma_runner_konsolesessions.po
+       po/ca/plasma_runner_spellcheckrunner.po
+       po/ca@valencia/lancelot.po
+       po/ca@valencia/libplasmaweather.po
+       po/ca@valencia/plasma_applet_binaryclock.po
+       po/ca@valencia/plasma_applet_bubblemon.po
+       po/ca@valencia/plasma_applet_comic.po
+       po/ca@valencia/plasma_applet_fileWatcher.po
+       po/ca@valencia/plasma_applet_frame.po
+       po/ca@valencia/plasma_applet_leavenote.po
+       po/ca@valencia/plasma_applet_life.po
+       po/ca@valencia/plasma_applet_magnifique.po
+       po/ca@valencia/plasma_applet_microblog.po
+       po/ca@valencia/plasma_applet_news.po
+       po/ca@valencia/plasma_applet_org.kde.kimpanel.po
+       po/ca@valencia/plasma_applet_org.kde.plasma.comic.po
+       po/ca@valencia/plasma_applet_org.kde.plasma.fifteenpuzzle.po
+       po/ca@valencia/plasma_applet_org.kde.plasma.fuzzyclock.po
+       po/ca@valencia/plasma_applet_org.kde.plasma.notes.po
+       po/ca@valencia/plasma_applet_org.kde.plasma.systemloadviewer.po
+       po/ca@valencia/plasma_applet_org.kde.plasma.timer.po
+       po/ca@valencia/plasma_applet_rssnow.po
+       po/ca@valencia/plasma_applet_unitconverter.po
+       po/ca@valencia/plasma_applet_weather.po
+       po/ca@valencia/plasma_applet_weatherstation.po
+       po/ca@valencia/plasma_packagestructure_comic.po
+       po/ca@valencia/plasma_runner_browserhistory.po
+       po/ca@valencia/plasma_runner_contacts.po
+       po/ca@valencia/plasma_runner_converterrunner.po
+       po/ca@valencia/plasma_runner_katesessions.po
+       po/ca@valencia/plasma_runner_konquerorsessions.po
+       po/ca@valencia/plasma_runner_konsolesessions.po
+       po/ca@valencia/plasma_runner_spellcheckrunner.po
+       runners/audioplayercontrol/audioplayercontrolconfigkeys.h
+       runners/audioplayercontrol/audioplayercontrolrunner.cpp
+       runners/audioplayercontrol/audioplayercontrolrunner.h
+       runners/audioplayercontrol/audioplayercontrolrunner_config.cpp
+       runners/audioplayercontrol/audioplayercontrolrunner_config.h
+       runners/audioplayercontrol/imageiconengine.cpp
+       runners/audioplayercontrol/imageiconengine.h
+       runners/contacts/contactsrunner.cpp
+       runners/contacts/contactsrunner.h
+       runners/contacts/imageiconengine.cpp
+       runners/contacts/imageiconengine.h
+       runners/datetime/datetimerunner.cpp
+       runners/datetime/datetimerunner.h
+       runners/spellchecker/spellcheck.cpp
+       runners/spellchecker/spellcheck.h
+       runners/youtube/imageiconengine.cpp
+       runners/youtube/imageiconengine.h
+Copyright: 2006-2010, Aaron Seigo <aseigo@kde.org>
+           2007, André Duffeck <duffeck@kde.org>
+           2008, Bruno Virlet <bvirlet@kdemail.net>
+           2007, Chani Armitage <chanika@gmail.com>
+           2008, Christian Weilbach <dunsens@web.de>
+           2009, Christoph Feck <christoph@maxiom.de>
+           2009, Jan G. Marker <jangerrit@weiler-marker.com>
+           2010, Marco MArtin <notmart@gmail.com>
+           2010, Matthias Fuchs <mat69@gmx.net>
+           2008, Petri Damstén <damu@iki.fi>
+           2007, Ryan Bitanga <ephebiphobic@gmail.com>
+           2009, Ryan P. Bitanga <ryan.bitanga@gmail.com>
+           2012, Sebastian Kügler <sebas@kde.org>
+           2007, Teemu Rytilahti <tpr@iki.fi>
+           2007-2015, This_file_is_part_of_KDE
+           2007, Tobias Koenig <tokoe@kde.org>
+           2007, Trever Fischer <wm161@wm161.net>
+           2015, Vishesh Handa <vhanda@kde.org>
+License: LGPL-2
+
+Files: applets/bookmarks/bookmarkowner.h
+       applets/bookmarks/bookmarksplasmoid.cpp
+       applets/bookmarks/bookmarksplasmoid.h
+       applets/bookmarks/generalconfigeditor.cpp
+       applets/bookmarks/generalconfigeditor.h
+       applets/bookmarks/main.cpp
+       applets/fifteenPuzzle/package/contents/config/config.qml
+       applets/fifteenPuzzle/package/contents/ui/ColorPicker.qml
+       applets/fifteenPuzzle/package/contents/ui/configAppearance.qml
+       applets/fifteenPuzzle/plugin/fifteenimageprovider.cpp
+       applets/fifteenPuzzle/plugin/fifteenimageprovider.h
+       applets/fifteenPuzzle/plugin/fifteenpuzzleplugin.cpp
+       applets/fifteenPuzzle/plugin/fifteenpuzzleplugin.h
+       applets/fuzzy-clock/package/contents/config/config.qml
+       applets/fuzzy-clock/package/contents/ui/configAppearance.qml
+       applets/kimpanel/backend/ibus/ibus14/main.c
+       applets/kimpanel/backend/ibus/ibus14/panel.c
+       applets/kimpanel/backend/ibus/ibus14/panel.h
+       applets/kimpanel/backend/ibus/ibus15/app.cpp
+       applets/kimpanel/backend/ibus/ibus15/app.h
+       applets/kimpanel/backend/ibus/ibus15/enginemanager.cpp
+       applets/kimpanel/backend/ibus/ibus15/enginemanager.h
+       applets/kimpanel/backend/ibus/ibus15/main.cpp
+       applets/kimpanel/backend/ibus/ibus15/panel.cpp
+       applets/kimpanel/backend/ibus/ibus15/panel.h
+       applets/kimpanel/backend/ibus/ibus15/propertymanager.cpp
+       applets/kimpanel/backend/ibus/ibus15/propertymanager.h
+       applets/kimpanel/backend/ibus/ibus15/xkblayoutmanager.cpp
+       applets/kimpanel/backend/ibus/ibus15/xkblayoutmanager.h
+       applets/kimpanel/plugin/kimpanelplugin.cpp
+       applets/kimpanel/plugin/kimpanelplugin.h
+       applets/kimpanel/plugin/screen.cpp
+       applets/kimpanel/plugin/screen.h
+       applets/quickshare/contents/config/config.qml
+       applets/quickshare/plasmoid/contents/config/config.qml
+       applets/systemloadviewer/package/contents/config/config.qml
+       applets/systemloadviewer/package/contents/ui/BarMonitor.qml
+       applets/systemloadviewer/package/contents/ui/CircularMonitor.qml
+       applets/systemloadviewer/package/contents/ui/ColorPicker.qml
+       applets/systemloadviewer/package/contents/ui/ColorSettings.qml
+       applets/systemloadviewer/package/contents/ui/CompactBarMonitor.qml
+       applets/systemloadviewer/package/contents/ui/ConditionallyLoadedMonitors.qml
+       applets/systemloadviewer/package/contents/ui/ConditionallyRoundedRectangle.qml
+       applets/systemloadviewer/package/contents/ui/GeneralSettings.qml
+       applets/systemloadviewer/package/contents/ui/SystemLoadViewer.qml
+       runners/events/collection_selector.cpp
+       runners/events/collection_selector.h
+       runners/events/datetime_parser.cpp
+       runners/events/datetime_parser.h
+       runners/events/datetime_parser_test.cpp
+       runners/events/datetime_parser_test.h
+       runners/events/datetime_range.cpp
+       runners/events/datetime_range.h
+       runners/events/events.cpp
+       runners/events/events.h
+       runners/events/events_config.cpp
+       runners/events/events_config.h
+Copyright: 2014, Aleix Pol Gonzalez <aleixpol@blue-systems.com>
+           2010, Alexey Noskov <alexey.noskov@gmail.com>
+           2013, Bhushan Shah <bhush94@gmail.com>
+           2009-2010, Friedrich W. H. Kossebau <kossebau@kde.org>
+           2014, Jeremy Whiting <jpwhiting@kde.org>
+           2015, Joshua Worth <joshua@worth.id.au>
+           2014, Kai Uwe Broulik <kde@privat.broulik.de>
+           2014, Martin Yrjölä <martin.yrjola@gmail.com>
+           2011-2012, Ni Hui <shuizhuyuanluo@126.com>
+           2013, Sebastian Kügler <sebas@kde.org>
+           2013-2014, Weng Xuetian <wengxt@gmail.com>
+License: GPL-2+3+KDEeV
+
+Files: applets/kimpanel/COPYING-CMAKE-SCRIPTS
+       applets/kimpanel/backend/scim/FindSCIM.cmake
+       applets/kimpanel/cmake/COPYING-CMAKE-SCRIPTS
+       applets/kimpanel/cmake/FindGIO.cmake
+       applets/kimpanel/cmake/FindGLIB2.cmake
+       applets/kimpanel/cmake/FindGObject.cmake
+       applets/kimpanel/cmake/FindIBus.cmake
+       applets/kimpanel/cmake/FindSCIM.cmake
+       applets/kimpanel/cmake/MacroOptionalAddSubdirectory.cmake
+       applets/notes/plugin/documenthandler.cpp
+       applets/notes/plugin/documenthandler.h
+       applets/qalculate/cmake_modules/FindQalculate.cmake
+       cmake/FindQtOAuth.cmake
+Copyright: 2007, Alexander Neundorf <neundorf@kde.org>
+           2010, Dario Freddi <drf@kde.org>
+           2013, Digia Plc and/or its subsidiary(-ies)
+           2010, Harald Sitter <apachelogger@ubuntu.com>
+           2008, Laurent Montel <montel@kde.org>
+           2010, Mehrdad Momeny <mehrdad.momeny@gmail.com>
+           2011, Ni Hui <shuizhuyuanluo@126.com>
+           2011, Raphael Kubo da Costa <kubito@gmail.com>
+           2006, Tim Beaulen <tbscope@gmail.com>
+           2007, Vladimir Kuznetsov <ks.vladimir@gmail.com>
+           2009, Wang Hoi <zeahot.hoi@gmail.org>
+License: BSD-3-clause
+
+Files: COPYING.LIB
+       applets/kimpanel/COPYING.LIB
+       applets/lancelot/COPYING.LIB
+       applets/notes/plugin/abstractnoteloader.cpp
+       applets/notes/plugin/abstractnoteloader.h
+       applets/notes/plugin/filesystemnoteloader.cpp
+       applets/notes/plugin/filesystemnoteloader.h
+       applets/notes/plugin/note.cpp
+       applets/notes/plugin/note.h
+       applets/notes/plugin/notemanager.cpp
+       applets/notes/plugin/notemanager.h
+       libs/lancelot/widgets/kineticscroll.cpp
+       libs/lancelot/widgets/kineticscroll_p.h
+Copyright: 2009, Adenilson Cavalcanti <adenilson.silva@idnt.org.br>
+           2014, David Edmundson <david@davidedmundson.co.uk>
+           1991-1999, Free Software Foundation, Inc
+           2009, Igor Trindade Oliveira <igor.oliveira@indt.org.br>
+License: LGPL-2.1+
+
+Files: cmake/FindLancelot-Datamodels.cmake
+       cmake/FindLancelot.cmake
+Copyright: 2007-2010, Ivan Cukic <ivan.cukic@kde.org>
+License: GPL-2+BSD-3-clause
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License version 2,
+   or (at your option) any later version, as published by the Free
+   Software Foundation
+ .
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details
+ .
+   You should have received a copy of the GNU General Public
+   License along with this program; if not, write to the
+   Free Software Foundation, Inc.,
+   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ .
+ [...]
+ .
+ Redistribution and use is allowed according to the terms of the BSD license.
+ For details see the accompanying COPYING-CMAKE-SCRIPTS file.
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. The name of the author may not be used to endorse or promote products
+    derived from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+Files: runners/events/README.markdown
+Copyright: 2010, Alexey Noskov
+License: GPL-3
+ released under the GPLv3 license.
+ -
+ On Debian systems, the complete text of the GNU General Public License
+ version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+Files: debian/*
+Copyright: 2007-2009, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+           2014-2015, Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+License: GPL-2+
+
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. The name of the author may not be used to endorse or promote products
+    derived from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -321,146 +810,48 @@ License: GPL-2+
  You should have received a copy of the GNU General Public License
  along with this program. If not, see <http://www.gnu.org/licenses/>
  .
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in "/usr/share/common-licenses/GPL-2".
 
-Files: applets/notes/plugin/documenthandler.cpp
-       applets/notes/plugin/documenthandler.h
-Copyright: (C) 2013 Digia Plc and/or its subsidiary(-ies).
-License: BSD-QT
- You may use this file under the terms of the BSD license as follows:
- .
- "Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions are
- met:
-   * Redistributions of source code must retain the above copyright
-     notice, this list of conditions and the following disclaimer.
-   * Redistributions in binary form must reproduce the above copyright
-     notice, this list of conditions and the following disclaimer in
-     the documentation and/or other materials provided with the
-     distribution.
-   * Neither the name of Digia Plc and its Subsidiary(-ies) nor the names
-     of its contributors may be used to endorse or promote products derived
-     from this software without specific prior written permission.
- .
- THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
- "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
- LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
- A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
- OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
- SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
- LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
- DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
- THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
- (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
- OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
-
-Files: applets/leavenote/*
-    dataengines/comic/*
-    dataengines/microblog/twitterengine.cpp
-    dataengines/microblog/twitterengine.h
-    runners/audioplayercontrol/*
-    runners/contacts/*
-    runners/datetime/*
-    runners/spellchecker/spellcheck.cpp
-    runners/spellchecker/spellcheck.h
-    runners/youtube/imageiconengine.cpp
-    runners/youtube/imageiconengine.h
-Copyright: (C) 2008 Christian Weilbach <dunsens@web.de>
-           (C) 2007 Trever Fischer <wm161@wm161.net>
-           (C) 2007 André Duffeck <duffeck@kde.org>
-           (C) 2007 Chani Armitage <chanika@gmail.com>
-               2012 Sebastian Kügler <sebas@kde.org>
-               2009 Jan G. Marker <jangerrit@weiler-marker.com>
-               2009 Christoph Feck <christoph@maxiom.de>
-               2007 Teemu Rytilahti <tpr@iki.fi>
-           (C) 2006 Aaron Seigo <aseigo@kde.org>
-           (C) 2010 Marco MArtin <notmart@gmail.com>
-           (C) 2007 Ryan P. Bitanga <ephebiphobic@gmail.com>
-License:LGPL-2
- This program is free software; you can redistribute it and/or modify
- it under the terms of the GNU Library General Public License version 2 as
- published by the Free Software Foundation
+License: GPL-2+3+KDEeV
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License or (at your option) version 3 or any later version
+ accepted by the membership of KDE e.V. (or its successor approved
+ by the membership of KDE e.V.), which shall act as a proxy
+ defined in Section 14 of version 3 of the license.
  .
  This program is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details
+ GNU General Public License for more details.
  .
- You should have received a copy of the GNU Library General Public
- License along with this program; if not, write to the
- Free Software Foundation, Inc.,
- 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
- .
- On Debian systems, the complete text of the
- GNU Library General Public License version 2 can be found in
- /usr/share/common-licenses/LGPL-2
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in `/usr/share/common-licenses/GPL-2', likewise, the
+ complete text of the GNU General Public License version 3 can be found in
+ `/usr/share/common-licenses/GPL-3'.
 
-Files: applets/bubblemon/src/*
-       applets/luna/phases.cpp
-       applets/microblog/postwidget.cpp
-       applets/microblog/postwidget.h
-       applets/qalculate/*
-       applets/rssnow/* excluding:
-       - applets/rssnow/feeddata.h
-       - applets/rssnow/news.cpp
-       - applets/rssnow/news.h
-       applets/weatherstation/lcd.cpp
-       applets/weatherstation/lcd.h
-       applets/webslice/*
-       containments/groupingdesktop/desktop/*
-       containments/groupingdesktop/griddesktop/*
-       containments/groupingdesktop/lib/*
-       containments/groupingdesktop/lib/groupexplorer/*
-       containments/groupingdesktop/lib/groups/*
-       containments/groupingdesktop/panel/*
-       dataengines/microblog/* excluding:
-       - dataengines/microblog/twitterengine.cpp
-       - dataengines/microblog/twitterengine.h
-       libs/lancelot/*
-       libs/lancelot-datamodels/*
-       libs/lancelot/layouts/*
-       libs/lancelot/models/*
-       libs/lancelot/widgets/* excluding:
-       - libs/lancelot/widgets/kineticscroll.cpp
-       - libs/lancelot/widgets/kineticscroll_p.h
-       libs/plasmaweather/*
-       libs/rtm/*
-       libs/rtm/tests/*
-       runners/browserhistory/*
-       runners/katesessions/*
-       runners/konquerorsessions/*
-       runners/konsolesessions/*
-       runners/mediawiki/*
-       runners/translator/*
-       runners/youtube/* excluding:
-       - runners/youtube/imageiconengine.cpp
-       - runners/youtube/imageiconengine.h
-Copyright: 2009 Trever Fischer <wm161@wm161.net>
-           1996 Christopher Osburn <chris@speakeasy.org>
-           2009 Marco Martin <notmart@gmail.com>
-           2009 Matteo Agostinelli <agostinelli@gmail.com>
-           2003-2007  Niklas Knutsson <nq@altern.org>
-           2008  Rob Scheepmaker <r.scheepmaker@student.utwente.nl>
-       (C) 2007, 2008 Petri Damsten <damu@iki.fi>
-           2009-2012 by Sebastian Kügler <sebas@kde.org>
-           2009 Richard Moore <rich@kde.org>
-           2009-2010 by Giulio Camuffo <giuliocamuffo@gmail.com>
-           2007 Kevin Ottens <ervin@kde.org>
-           2008 Marco Martin <notmart@gmail.com>
-           2008, 2009 Aaron Seigo <aseigo@kde.org>
-           2010 Chani Armitage <chani@kde.org>
-           2007 Alex Merry <alex.merry@kdemail.net>
-           2008 Alexis Ménard <darktears31@gmail.com>
-           2009-2010 Ryan P. Bitanga <ryan.bitanga@gmail.com>
-       (C) 2007-2010 Ivan Cukic <ivan.cukic(at)kde.org>
-       (C) 2007 David Faure <faure@kde.org>
-           2009 Petri Damstén <damu@iki.fi>
-           2009 Andrew Coles <andrew_coles@yahoo.co.uk>
-           2009 Andrew Stromme <astromme@chatonka.com>
-           2008 Montel Laurent <montel@kde.org>
-       (C) 2013 by David Baum <david.baum@naraesk.eu>
-       (C) 2012 by Shaun Reich <shaun.reich@blue-systems.com
+License: LGPL-2
+ This program is free software; you can redistribute it and/or modify it under
+ the terms of the GNU Library General Public License version 2 as published by
+ the Free Software Foundation
+ .
+ This program is distributed in the hope that it will be useful, but WITHOUT
+ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+ details
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this program; if not, write to the Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ -
+ On Debian systems, the complete text of the GNU Library General Public
+ License version 2 can be found in `/usr/share/common-licenses/LGPL-2'.
+
 License: LGPL-2+
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU Library General Public License as
@@ -476,21 +867,10 @@ License: LGPL-2+
  License along with this program; if not, write to the
  Free Software Foundation, Inc.,
  51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
- .
- On Debian systems, the complete text of the
- GNU Library General Public License version 2 can be found in
- /usr/share/common-licenses/LGPL-2
+ -
+ On Debian systems, the complete text of the GNU Library General Public
+ License version 2 can be found in `/usr/share/common-licenses/LGPL-2'.
 
-Files: applets/notes/plugin/* excluding:
-       - applets/notes/plugin/documenthandler.cpp
-       - applets/notes/plugin/documenthandler.h
-       - applets/notes/plugin/notesplugin.cpp
-       - applets/notes/plugin/notesplugin.h
-       libs/lancelot/widgets/kineticscroll.cpp
-       libs/lancelot/widgets/kineticscroll_p.h
-Copyright: 2014  David Edmundson <david@davidedmundson.co.uk>
-           2009 Igor Trindade Oliveira <igor.oliveira@indt.org.br>
-       (C) 2009 Adenilson Cavalcanti <adenilson.silva@idnt.org.br>
 License: LGPL-2.1+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
@@ -504,36 +884,11 @@ License: LGPL-2.1+
  .
  You should have received a copy of the GNU Lesser General Public
  License along with this library.  If not, see <http://www.gnu.org/licenses/>.
- .
- On Debian systems, the complete text of the
- GNU Lesser General Public License version 2.1 can be found in
- /usr/share/common-licenses/LGPL-2.1
+ -
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1'.
 
-Files: applets/kimpanel/plugin/*
-Copyright: 2014 Weng Xuetian <wengxt@gmail.com>
-License: GPL-KDEev
- This program is free software; you can redistribute it and/or
- modify it under the terms of the GNU General Public License as
- published by the Free Software Foundation; either version 2 of
- the License or (at your option) version 3 or any later version
- accepted by the membership of KDE e.V. (or its successor approved
- by the membership of KDE e.V.), which shall act as a proxy
- defined in Section 14 of version 3 of the license.
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program.  If not, see <http://www.gnu.org/licenses/>
- .
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
-
-Files: runners/characters/*
-Copyright: 2010  Anton Kreuzkamp <akreuzkamp@web.de>
-License: LGPL-KDEev
+License: LGPL-2.1+3+KDEeV
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
  License as published by the Free Software Foundation; either
@@ -549,3 +904,8 @@ License: LGPL-KDEev
  .
  You should have received a copy of the GNU Lesser General Public
  License along with this library.  If not, see <http://www.gnu.org/licenses/>.
+ -
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1', likewise,
+ the complete text of the GNU Lesser General Public License version 3 can be
+ found in `/usr/share/common-licenses/LGPL-3'.
