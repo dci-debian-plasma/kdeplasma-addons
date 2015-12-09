@@ -49,7 +49,6 @@ kdeplasma-addons (4:5.4.1-1) unstable; urgency=medium
     kwin-addons to make the package more installable (Closes: #791381)
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 11 Sep 2015 18:45:32 +0200
->>>>>>> master
 
 kdeplasma-addons (4:5.4.1-0ubuntu1) wily; urgency=medium
 

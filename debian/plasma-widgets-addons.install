@@ -17,6 +17,8 @@ usr/share/kservices5/plasma-applet-org.kde.plasma.diskquota.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.fifteenpuzzle.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.fuzzyclock.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.kickerdash.desktop
+usr/share/kservices5/plasma-applet-org.kde.plasma.kickerdash.desktop
+usr/share/kservices5/plasma-applet-org.kde.plasma.konsoleprofiles.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.konsoleprofiles.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.notes.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.quicklaunch.desktop
@@ -25,22 +27,15 @@ usr/share/kservices5/plasma-applet-org.kde.plasma.systemloadviewer.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.timer.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.userswitcher.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.webbrowser.desktop
-usr/share/kservices5/plasma-applet-org.kde.plasma.kickerdash.desktop
-usr/share/kservices5/plasma-applet-org.kde.plasma.konsoleprofiles.desktop
 usr/share/plasma/desktoptheme/default
-<<<<<<< HEAD
 usr/share/plasma/plasmoids/org.kde.plasma.activitypager/
-=======
-usr/share/plasma/plasmoids/org.kde.plasma.kickerdash/
-usr/share/plasma/plasmoids/org.kde.plasma.konsoleprofiles/
->>>>>>> master
 usr/share/plasma/plasmoids/org.kde.plasma.calculator/
 usr/share/plasma/plasmoids/org.kde.plasma.colorpicker/
 usr/share/plasma/plasmoids/org.kde.plasma.comic/
 usr/share/plasma/plasmoids/org.kde.plasma.diskquota/
 usr/share/plasma/plasmoids/org.kde.plasma.fifteenpuzzle/
 usr/share/plasma/plasmoids/org.kde.plasma.fuzzyclock/
-usr/share/plasma/plasmoids/org.kde.plasma.kickerdash/metadata.desktop
+usr/share/plasma/plasmoids/org.kde.plasma.kickerdash/
 usr/share/plasma/plasmoids/org.kde.plasma.konsoleprofiles/
 usr/share/plasma/plasmoids/org.kde.plasma.notes/
 usr/share/plasma/plasmoids/org.kde.plasma.quicklaunch/
