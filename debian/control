@@ -10,6 +10,7 @@ Build-Depends: cmake (>= 2.8.12),
                kio-dev (>= 5.8.0~),
                kross-dev (>= 5.8.0~),
                libboost-dev,
+               libgee-dev | libgee-0.8-dev,
                libglib2.0-dev,
                libibus-1.0-dev,
                libkf5activities-dev (>= 5.8.0~),
@@ -23,6 +24,7 @@ Build-Depends: cmake (>= 2.8.12),
                libkf5runner-dev (>= 5.8.0~),
                libkf5service-dev (>= 5.8.0~),
                libkf5unitconversion-dev (>= 5.8.0~),
+               libqt5x11extras5-dev,
                libqt5x11extras5-dev (>= 5.4),
                libx11-dev,
                libxcb-image0-dev,
@@ -33,6 +35,7 @@ Build-Depends: cmake (>= 2.8.12),
                pkg-kde-tools (>= 0.15.18~),
                plasma-framework-dev (>= 5.8.0~),
                qtbase5-dev (>= 5.4),
+               qtdeclarative5-dev,
                qtdeclarative5-dev (>= 5.4),
                scim-dev,
                shared-mime-info
@@ -98,6 +101,9 @@ Description: additional widgets for Plasma 5
   * System Load Viewer
   * Timer
   * Unit Converter
+  * Userswitcher
+  * Diskquota
+  * Activity pager
   * More coming soon..
  .
  This package is part of the KDE Plasma 5 addons module.
