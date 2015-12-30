@@ -9,6 +9,7 @@ kdeplasma-addons (4:5.5.2-0ubuntu1) UNRELEASED; urgency=medium
   * new upstream release
   * Removing plasma_applet_showdashboard.mo from install file
   * Wildcarding /usr/share/locale/*/*/*.mo in install file
+  * Adding missing activitypager files
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 29 Dec 2015 17:38:36 +0000
 
