@@ -15,6 +15,7 @@ kdeplasma-addons (4:5.5.3-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Merge unstable to archive to get debian merge. 
   * Fix missing files. 
+  * Fix install file for archive. 
 
  -- Clive Johnston <clivejo@aol.com>  Thu, 07 Jan 2016 17:54:06 +0000
 
