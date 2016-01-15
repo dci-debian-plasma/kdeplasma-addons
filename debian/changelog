@@ -17,6 +17,7 @@ kdeplasma-addons (4:5.5.3-0ubuntu1) UNRELEASED; urgency=medium
   * Fix missing files. 
   * Fix install file for archive. 
   * Remove kimpanel in unstable, it has been removed in master. 
+  * Remove another kimpanel from install file. 
 
  -- Clive Johnston <clivejo@aol.com>  Thu, 07 Jan 2016 17:54:06 +0000
 
