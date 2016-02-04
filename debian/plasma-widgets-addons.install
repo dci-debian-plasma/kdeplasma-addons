@@ -1,4 +1,6 @@
 etc/xdg/comic.knsrc
+usr/lib/*/libexec/kimpanel-ibus-panel
+usr/lib/*/libexec/kimpanel-scim-panel
 usr/lib/*/qt5/plugins/plasma/applets/plasma_applet_comic.so
 usr/lib/*/qt5/qml/org/kde/plasma/private/activitypager/libactivitypagerplugin.so
 usr/lib/*/qt5/qml/org/kde/plasma/private/activitypager/qmldir
