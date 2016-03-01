@@ -170,14 +170,3 @@ Description: KIMPanel widget for Plasma
  This package provides the KDE Input Method Panel widget for Plasma 5.
  .
  This package is part of the KDE Plasma addons module.
-
-Package: kdeplasma-addons-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Depends: plasma-dataengines-addons (= ${binary:Version}) | plasma-runners-addons (= ${binary:Version}) | plasma-wallpapers-addons (= ${binary:Version}) | plasma-widget-kimpanel (= ${binary:Version}) | plasma-widgets-addons (= ${binary:Version}),
-         ${misc:Depends}
-Description: debugging symbols for kdeplasma-addons
- This package contains the debugging symbols associated with kdeplasma-addons
- for kf5. They will automatically be used by gdb for debugging kdeplasma-addons
- related issues.
