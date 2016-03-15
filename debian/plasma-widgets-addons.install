@@ -60,14 +60,5 @@ usr/share/plasma/plasmoids/org.kde.plasma.showdesktop/
 usr/share/plasma/plasmoids/org.kde.plasma.systemloadviewer/
 usr/share/plasma/plasmoids/org.kde.plasma.timer/
 usr/share/plasma/plasmoids/org.kde.plasma.userswitcher/
-usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/config/config.qml
-usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/DetailsView.qml
-usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/FiveDaysView.qml
-usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/Notice.qml
-usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/NoticesView.qml
-usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/TopPanel.qml
-usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/WeatherListView.qml
-usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/configGeneral.qml
-usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/main.qml
-usr/share/plasma/plasmoids/org.kde.plasma.weather/metadata.desktop
+usr/share/plasma/plasmoids/org.kde.plasma.weather/
 usr/share/plasma/plasmoids/org.kde.plasma.webbrowser/
