@@ -88,7 +88,6 @@ Depends: kdeplasma-addons-data (= ${source:Version}),
          qml-module-qtwebkit,
          ${misc:Depends},
          ${shlibs:Depends}
-Suggests: plasma-widget-kimpanel
 Description: additional widgets for Plasma 5
  This package contains additional Plasma 5 widgets shipped in the Plasma
  addons module. Install it if you want a variety of widgets on your Plasma
@@ -155,19 +154,3 @@ Description: additional wallpaper plugins for Plasma 5
   * More coming soon..
  .
  This package is part of the KDE Plasma 5 addons module.
-
-Package: plasma-widget-kimpanel
-Architecture: any
-Depends: kdeplasma-addons-data (= ${source:Version}),
-         plasma-framework,
-         qml-module-org-kde-kquickcontrolsaddons,
-         qml-module-qtquick-layouts,
-         qml-module-qtquick2,
-         ${misc:Depends},
-         ${shlibs:Depends}
-Breaks: plasma-widgets-addons (<< 4:5.2.1+git20150318.0041)
-Replaces: plasma-widgets-addons (<< 4:5.2.1+git20150318.0041)
-Description: KIMPanel widget for Plasma
- This package provides the KDE Input Method Panel widget for Plasma 5.
- .
- This package is part of the KDE Plasma addons module.
