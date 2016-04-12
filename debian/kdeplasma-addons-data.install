@@ -26,6 +26,7 @@ usr/share/locale/*/*/plasma_applet_org.kde.plasma.comic.mo
 usr/share/locale/*/*/plasma_applet_org.kde.plasma.diskquota.mo
 usr/share/locale/*/*/plasma_applet_org.kde.plasma.fifteenpuzzle.mo
 usr/share/locale/*/*/plasma_applet_org.kde.plasma.fuzzyclock.mo
+usr/share/locale/*/*/plasma_applet_org.kde.plasma.mediaframe.mo
 usr/share/locale/*/*/plasma_applet_org.kde.plasma.notes.mo
 usr/share/locale/*/*/plasma_applet_org.kde.plasma.quicklaunch.mo
 usr/share/locale/*/*/plasma_applet_org.kde.plasma.quickshare.mo
@@ -33,6 +34,7 @@ usr/share/locale/*/*/plasma_applet_org.kde.plasma.showdesktop.mo
 usr/share/locale/*/*/plasma_applet_org.kde.plasma.systemloadviewer.mo
 usr/share/locale/*/*/plasma_applet_org.kde.plasma.timer.mo
 usr/share/locale/*/*/plasma_applet_org.kde.plasma.userswitcher.mo
+usr/share/locale/*/*/plasma_applet_org.kde.plasma.weather.mo
 usr/share/locale/*/*/plasma_applet_plasmaboard.mo
 usr/share/locale/*/*/plasma_applet_previewer.mo
 usr/share/locale/*/*/plasma_applet_qalculate.mo
@@ -40,7 +42,6 @@ usr/share/locale/*/*/plasma_applet_qstardict.mo
 usr/share/locale/*/*/plasma_applet_rssnow.mo
 usr/share/locale/*/*/plasma_applet_spellcheck.mo
 usr/share/locale/*/*/plasma_applet_unitconverter.mo
-usr/share/locale/*/*/plasma_applet_weather.mo
 usr/share/locale/*/*/plasma_applet_weatherstation.mo
 usr/share/locale/*/*/plasma_applet_webslice.mo
 usr/share/locale/*/*/plasma_packagestructure_comic.mo
