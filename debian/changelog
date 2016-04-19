@@ -1,3 +1,29 @@
+kdeplasma-addons (4:5.6.3-1~1.gbp27aacb) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @27aacb9191e05e8842386420c8e38cb23f151907 **
+
+  [ Automatic packaging ]
+  ** SNAPSHOT build @251d8791606d34013c2a8679d77139bc4e969103 **
+
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
+
+  [ Maximiliano Curia ]
+  * uscan no longer supports this kind of watch files.
+  * New upstream release (5.5.5).
+  * Automatic update with ddeb_migration3.py
+  * Add upstream metadata (DEP-12)
+  * Update build-depends
+  * uscan no longer supports this kind of watch files.
+  * Automatic update with ddeb_migration3.py
+  * Add upstream metadata (DEP-12)
+  * Update build-depends
+  * Add libksysguard as a build dep
+  * Drop kimpanel package
+  * Update install files
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 19 Apr 2016 19:06:28 +0200
+
 kdeplasma-addons (4:5.6.2-1) unstable; urgency=medium
 
   [ Automatic packaging ]
