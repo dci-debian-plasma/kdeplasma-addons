@@ -1,6 +1,6 @@
-kdeplasma-addons (4:5.6.3-1~1.gbp27aacb) UNRELEASED; urgency=medium
+kdeplasma-addons (4:5.6.3-1~2.gbp62cffd) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @27aacb9191e05e8842386420c8e38cb23f151907 **
+  ** SNAPSHOT build @62cffdeda63cd020825583876d96d71675ce14fd **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @251d8791606d34013c2a8679d77139bc4e969103 **
@@ -21,8 +21,9 @@ kdeplasma-addons (4:5.6.3-1~1.gbp27aacb) UNRELEASED; urgency=medium
   * Add libksysguard as a build dep
   * Drop kimpanel package
   * Update install files
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 19 Apr 2016 19:06:28 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 11:06:22 +0200
 
 kdeplasma-addons (4:5.6.2-1) unstable; urgency=medium
 
