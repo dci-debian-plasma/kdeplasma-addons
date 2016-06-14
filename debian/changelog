@@ -1,3 +1,11 @@
+kdeplasma-addons (4:5.6.5-1~1.gbp74a223) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @74a223d29516d09e4a8289a8d7b1e50f2648a8e9 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 14 Jun 2016 19:06:22 +0200
+
 kdeplasma-addons (4:5.6.4-1) unstable; urgency=medium
 
   [ Automatic packaging ]
