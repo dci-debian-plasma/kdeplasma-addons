@@ -1,10 +1,11 @@
-kdeplasma-addons (4:5.7.0-1~1.gbpc7d1b2) UNRELEASED; urgency=medium
+kdeplasma-addons (4:5.7.0-1~2.gbp503f60) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @c7d1b2cf00015bd2407830048f91307467e7181f **
+  ** SNAPSHOT build @503f607f3b577dd0b772bfda6b9b5a3f9cf3d085 **
 
   * UNRELEASED
+  * Bump plasma-workspace-dev build dependency version
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 05 Jul 2016 19:06:25 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 12 Jul 2016 10:06:14 +0200
 
 kdeplasma-addons (4:5.6.5-1) unstable; urgency=medium
 
