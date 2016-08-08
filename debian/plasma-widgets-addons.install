@@ -11,6 +11,7 @@ usr/lib/*/qt5/qml/org/kde/plasma/private/diskquota/
 usr/lib/*/qt5/qml/org/kde/plasma/private/fifteenpuzzle/
 usr/lib/*/qt5/qml/org/kde/plasma/private/mediaframe/libmediaframeplugin.so
 usr/lib/*/qt5/qml/org/kde/plasma/private/mediaframe/qmldir
+usr/lib/*/qt5/qml/org/kde/plasma/private/minimizeall/
 usr/lib/*/qt5/qml/org/kde/plasma/private/notes/
 usr/lib/*/qt5/qml/org/kde/plasma/private/quicklaunch/
 usr/lib/*/qt5/qml/org/kde/plasma/private/showdesktop/
@@ -30,6 +31,7 @@ usr/share/kservices5/plasma-applet-org.kde.plasma.kickerdash.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.konsoleprofiles.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.konsoleprofiles.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.mediaframe.desktop
+usr/share/kservices5/plasma-applet-org.kde.plasma.minimizeall.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.notes.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.quicklaunch.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.showdesktop.desktop
@@ -54,6 +56,7 @@ usr/share/plasma/plasmoids/org.kde.plasma.mediaframe/contents/ui/ConfigGeneral.q
 usr/share/plasma/plasmoids/org.kde.plasma.mediaframe/contents/ui/ConfigPaths.qml
 usr/share/plasma/plasmoids/org.kde.plasma.mediaframe/contents/ui/main.qml
 usr/share/plasma/plasmoids/org.kde.plasma.mediaframe/metadata.desktop
+usr/share/plasma/plasmoids/org.kde.plasma.minimizeall/
 usr/share/plasma/plasmoids/org.kde.plasma.notes/
 usr/share/plasma/plasmoids/org.kde.plasma.quicklaunch/
 usr/share/plasma/plasmoids/org.kde.plasma.showdesktop/
