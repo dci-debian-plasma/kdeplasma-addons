@@ -139,8 +139,8 @@ Depends: kdeplasma-addons-data (= ${source:Version}),
          plasma-framework,
          ${misc:Depends},
          ${shlibs:Depends}
-Breaks: plasma-wallpapers-addons (<< ${source:Version}~ciBuild)
-Replaces: plasma-wallpapers-addons (<< ${source:Version}~ciBuild)
+Breaks: plasma-widgets-addons (<< ${source:Version}~ciBuild)
+Replaces: plasma-widgets-addons (<< ${source:Version}~ciBuild)
 Description: additional wallpaper plugins for Plasma 5
  This package contains additional Plasma 5 wallpaper plugins that are used in
  the Plasma desktop to give marble, mandelbrot and other such wallpapers.
