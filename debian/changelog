@@ -1,16 +1,10 @@
-kdeplasma-addons (4:5.7.4-1~2.gbp5ae80e) UNRELEASED; urgency=medium
+kdeplasma-addons (4:5.7.4-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @5ae80eaa695f9018a52dafc1706d066b3d710653 **
-
-  * UNRELEASED
+  * New upstream release (5.7.4)
   * Bump plasma-workspace-dev build dependency version
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
   * Update install files
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sat, 27 Aug 2016 19:06:15 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 31 Aug 2016 14:16:59 +0200
 
 kdeplasma-addons (4:5.6.5-1) unstable; urgency=medium
 
