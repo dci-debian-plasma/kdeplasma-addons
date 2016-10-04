@@ -3,7 +3,6 @@ usr/lib/*/libplasmaweather.so.1
 usr/lib/*/libplasmaweather.so.2.*
 usr/lib/*/qt5/plugins/plasma/applets/plasma_applet_comic.so
 usr/lib/*/qt5/plugins/plasma/applets/plasma_applet_weather.so
-usr/lib/*/qt5/qml/org/kde/plasma/private/activitypager/
 usr/lib/*/qt5/qml/org/kde/plasma/private/colorpicker/
 usr/lib/*/qt5/qml/org/kde/plasma/private/diskquota/
 usr/lib/*/qt5/qml/org/kde/plasma/private/fifteenpuzzle/
@@ -32,7 +31,6 @@ usr/share/kservices5/plasma-applet-org.kde.plasma.timer.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.userswitcher.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.weather.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.webbrowser.desktop
-usr/share/metainfo/org.kde.plasma.activitypager.appdata.xml
 usr/share/metainfo/org.kde.plasma.calculator.appdata.xml
 usr/share/metainfo/org.kde.plasma.colorpicker.appdata.xml
 usr/share/metainfo/org.kde.plasma.comic.appdata.xml
