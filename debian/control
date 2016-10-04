@@ -60,7 +60,7 @@ Multi-Arch: foreign
 Package: kwin-addons
 Architecture: any
 Depends: kdeplasma-addons-data (= ${source:Version}),
-         kwin | kwin-x11,
+         kwin-x11 | kwin,
          plasma-framework,
          ${misc:Depends},
          ${shlibs:Depends}
