@@ -1,11 +1,13 @@
-kdeplasma-addons (4:5.8.0-1~1.gbp00cc91) UNRELEASED; urgency=medium
+kdeplasma-addons (4:5.8.0-1~2.gbp6dc07f) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @00cc9175b8a60e4de88496f1a567e697b13d7d34 **
+  ** SNAPSHOT build @6dc07f4c45617130f7e7423b78b6c1f630b9c4ce **
 
   * UNRELEASED
   * UNRELEASED
+  * Update install files
+  * Add new plasmoid (minimizeall)
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 04 Oct 2016 13:44:35 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 04 Oct 2016 18:06:36 +0200
 
 kdeplasma-addons (4:5.7.4-1) unstable; urgency=medium
 
