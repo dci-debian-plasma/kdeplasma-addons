@@ -1,10 +1,11 @@
-kdeplasma-addons (4:5.7.5-1~1.gbp8dc6d0) UNRELEASED; urgency=medium
+kdeplasma-addons (4:5.8.0-1~1.gbp00cc91) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @8dc6d0fb6b96e12fa50d2d9c87f291f7ad533afd **
+  ** SNAPSHOT build @00cc9175b8a60e4de88496f1a567e697b13d7d34 **
 
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 13 Sep 2016 19:06:50 +0200
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 04 Oct 2016 13:44:35 +0200
 
 kdeplasma-addons (4:5.7.4-1) unstable; urgency=medium
 
