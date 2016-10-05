@@ -71,6 +71,7 @@ Package: plasma-widgets-addons
 Architecture: any
 Depends: kdeplasma-addons-data (= ${source:Version}),
          kpackagetool5,
+         libkf5purpose5,
          plasma-dataengines-addons (= ${binary:Version}),
          plasma-framework,
          plasma-workspace,
