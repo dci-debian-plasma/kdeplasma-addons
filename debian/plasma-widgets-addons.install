@@ -11,6 +11,8 @@ usr/lib/*/qt5/qml/org/kde/plasma/private/mediaframe/libmediaframeplugin.so
 usr/lib/*/qt5/qml/org/kde/plasma/private/mediaframe/qmldir
 usr/lib/*/qt5/qml/org/kde/plasma/private/minimizeall/
 usr/lib/*/qt5/qml/org/kde/plasma/private/notes/
+usr/lib/*/qt5/qml/org/kde/plasma/private/purpose/libpurposeplugin.so
+usr/lib/*/qt5/qml/org/kde/plasma/private/purpose/qmldir
 usr/lib/*/qt5/qml/org/kde/plasma/private/quicklaunch/
 usr/lib/*/qt5/qml/org/kde/plasma/private/showdesktop/
 usr/lib/*/qt5/qml/org/kde/plasma/private/timer/
@@ -32,6 +34,7 @@ usr/share/kservices5/plasma-applet-org.kde.plasma.mediaframe.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.minimizeall.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.notes.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.quicklaunch.desktop
+usr/share/kservices5/plasma-applet-org.kde.plasma.quickshare.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.showdesktop.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.systemloadviewer.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.timer.desktop
@@ -48,6 +51,7 @@ usr/share/metainfo/org.kde.plasma.mediaframe.appdata.xml
 usr/share/metainfo/org.kde.plasma.minimizeall.appdata.xml
 usr/share/metainfo/org.kde.plasma.notes.appdata.xml
 usr/share/metainfo/org.kde.plasma.quicklaunch.appdata.xml
+usr/share/metainfo/org.kde.plasma.quickshare.appdata.xml
 usr/share/metainfo/org.kde.plasma.showdesktop.appdata.xml
 usr/share/metainfo/org.kde.plasma.systemloadviewer.appdata.xml
 usr/share/metainfo/org.kde.plasma.timer.appdata.xml
@@ -73,6 +77,7 @@ usr/share/plasma/plasmoids/org.kde.plasma.mediaframe/metadata.desktop
 usr/share/plasma/plasmoids/org.kde.plasma.minimizeall/
 usr/share/plasma/plasmoids/org.kde.plasma.notes/
 usr/share/plasma/plasmoids/org.kde.plasma.quicklaunch/
+usr/share/plasma/plasmoids/org.kde.plasma.quickshare/
 usr/share/plasma/plasmoids/org.kde.plasma.showdesktop/
 usr/share/plasma/plasmoids/org.kde.plasma.systemloadviewer/
 usr/share/plasma/plasmoids/org.kde.plasma.timer/
