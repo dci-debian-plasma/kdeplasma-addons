@@ -105,3 +105,17 @@
 ./usr/lib/liblancelot.so
 ./usr/share/kde4/apps/cmake/modules/FindLancelot-Datamodels.cmake
 ./usr/share/kde4/apps/cmake/modules/FindLancelot.cmake
+
+# quickshare depends on purpose that's not in Debian
+usr/lib/*/qt5/qml/org/kde/plasma/private/purpose/libpurposeplugin.so
+usr/lib/*/qt5/qml/org/kde/plasma/private/purpose/qmldir
+usr/share/kservices5/plasma-applet-org.kde.plasma.quickshare.desktop
+usr/share/metainfo/org.kde.plasma.quickshare.appdata.xml
+usr/share/plasma/plasmoids/org.kde.plasma.quickshare/contents/config/config.qml
+usr/share/plasma/plasmoids/org.kde.plasma.quickshare/contents/config/main.xml
+usr/share/plasma/plasmoids/org.kde.plasma.quickshare/contents/ui/PasteMenuItem.qml
+usr/share/plasma/plasmoids/org.kde.plasma.quickshare/contents/ui/ShareDialog.qml
+usr/share/plasma/plasmoids/org.kde.plasma.quickshare/contents/ui/ShowUrlDialog.qml
+usr/share/plasma/plasmoids/org.kde.plasma.quickshare/contents/ui/main.qml
+usr/share/plasma/plasmoids/org.kde.plasma.quickshare/contents/ui/settingsGeneral.qml
+usr/share/plasma/plasmoids/org.kde.plasma.quickshare/metadata.desktop
