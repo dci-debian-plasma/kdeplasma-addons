@@ -1,11 +1,9 @@
-kdeplasma-addons (4:5.8.1-1~2.gbp98fe5b) UNRELEASED; urgency=medium
+kdeplasma-addons (4:5.8.1-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @98fe5b7c9382f67b00e77a98a7fe28aaf72c844d **
-
-  * UNRELEASED
+  * New upstream release (5.8.1)
   * Add quickshare to not-installed till purpose is available
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 14 Oct 2016 18:37:16 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 16 Oct 2016 23:01:34 +0200
 
 kdeplasma-addons (4:5.8.0-1) unstable; urgency=medium
 
