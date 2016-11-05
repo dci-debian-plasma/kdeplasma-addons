@@ -1,3 +1,11 @@
+kdeplasma-addons (4:5.8.3-1~1.gbp68b5c3) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @68b5c3f5e48811f168d52031432ce9e8acb643db **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Sat, 05 Nov 2016 19:06:25 +0100
+
 kdeplasma-addons (4:5.8.2-1) unstable; urgency=medium
 
   * New upstream release (5.8.2)
