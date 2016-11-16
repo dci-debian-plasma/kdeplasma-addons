@@ -4,6 +4,7 @@
 ./usr/lib/libplasmaweather.so
 ./usr/lib/librtm.so
 ./usr/lib/libplasma_groupingcontainment.so
+./usr/lib/*/libplasmapotdprovidercore.so
 
 # lancelot-dev stuff. Do not ship
 ./usr/include/KDE/Lancelot/ActionListModel
