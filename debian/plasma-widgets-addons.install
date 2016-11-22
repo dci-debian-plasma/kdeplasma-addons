@@ -73,6 +73,7 @@ usr/share/plasma/plasmoids/org.kde.plasma.mediaframe/contents/config/main.xml
 usr/share/plasma/plasmoids/org.kde.plasma.mediaframe/contents/ui/ConfigGeneral.qml
 usr/share/plasma/plasmoids/org.kde.plasma.mediaframe/contents/ui/ConfigPaths.qml
 usr/share/plasma/plasmoids/org.kde.plasma.mediaframe/contents/ui/main.qml
+usr/share/plasma/plasmoids/org.kde.plasma.mediaframe/metadata.desktop
 usr/share/plasma/plasmoids/org.kde.plasma.mediaframe/metadata.json
 usr/share/plasma/plasmoids/org.kde.plasma.minimizeall/
 usr/share/plasma/plasmoids/org.kde.plasma.notes/
