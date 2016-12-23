@@ -111,6 +111,8 @@ Depends: kdeplasma-addons-data (= ${source:Version}),
          kross,
          ${misc:Depends},
          ${shlibs:Depends}
+Breaks: plasma-widgets-addons (<< ${source:Version}~ciBuild)
+Replaces: plasma-widgets-addons (<< ${source:Version}~ciBuild)
 Description: additional data engines for Plasma
  This package contains additional Plasma data engines shipped in Plasma 5
  addons module. These engines are needed by some Plasma  5 widget shipped with
