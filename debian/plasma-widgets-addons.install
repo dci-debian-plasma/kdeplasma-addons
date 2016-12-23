@@ -7,7 +7,6 @@ usr/lib/*/qt5/plugins/plasma/applets/plasma_applet_comic.so
 usr/lib/*/qt5/plugins/plasma/applets/plasma_applet_weather.so
 usr/lib/*/qt5/qml/org/kde/plasma/private/colorpicker/
 usr/lib/*/qt5/qml/org/kde/plasma/private/diskquota/
-usr/lib/*/qt5/qml/org/kde/plasma/private/diskquota/
 usr/lib/*/qt5/qml/org/kde/plasma/private/fifteenpuzzle/
 usr/lib/*/qt5/qml/org/kde/plasma/private/mediaframe/libmediaframeplugin.so
 usr/lib/*/qt5/qml/org/kde/plasma/private/mediaframe/qmldir
@@ -29,7 +28,6 @@ usr/share/kservices5/plasma-applet-org.kde.plasma.diskquota.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.fifteenpuzzle.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.fuzzyclock.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.grouping.desktop
-usr/share/kservices5/plasma-applet-org.kde.plasma.kickerdash.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.kickerdash.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.mediaframe.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.minimizeall.desktop
