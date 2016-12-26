@@ -12,4 +12,6 @@ usr/share/kservices5/plasma-dataengine-comic.desktop
 usr/share/kservices5/plasma-dataengine-konsoleprofiles.desktop
 usr/share/kservices5/plasma-dataengine-potd.desktop
 usr/share/kservicetypes5/plasma_comicprovider.desktop
+usr/share/metainfo/org.kde.plasma.konsoleprofiles.appdata.xml
+usr/share/plasma/plasmoids/org.kde.plasma.konsoleprofiles/
 usr/share/plasma/services/org.kde.plasma.dataengine.konsoleprofiles.operations
