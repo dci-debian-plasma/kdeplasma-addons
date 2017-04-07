@@ -79,6 +79,8 @@ Depends: kdeplasma-addons-data (= ${source:Version}),
          qml-module-org-kde-kcoreaddons,
          qml-module-org-kde-kio,
          qml-module-qtgraphicaleffects,
+         qml-module-qtquick-layouts,
+         qml-module-qtquick-window2,
          qml-module-qtwebkit,
          ${misc:Depends},
          ${shlibs:Depends}
