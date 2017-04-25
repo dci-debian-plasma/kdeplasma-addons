@@ -114,6 +114,8 @@ Package: plasma-dataengines-addons
 Architecture: any
 Depends: kdeplasma-addons-data (= ${source:Version}),
          kross,
+         plasma-framework,
+         qml-module-qtquick-layouts,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: additional data engines for Plasma
