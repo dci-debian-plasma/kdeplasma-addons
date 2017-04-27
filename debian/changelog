@@ -1,3 +1,10 @@
+kdeplasma-addons (4:5.8.5-3~) UNRELEASED; urgency=medium
+
+  * Update plasma-wallpapers-addons package description.
+    Thanks to Ralf Jung for reporting (Closes: 861318)
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 27 Apr 2017 14:08:26 +0200
+
 kdeplasma-addons (4:5.8.5-2) unstable; urgency=medium
 
   * Release to unstable.
