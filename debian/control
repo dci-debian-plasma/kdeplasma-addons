@@ -145,7 +145,7 @@ Depends: kdeplasma-addons-data (= ${source:Version}),
          ${shlibs:Depends}
 Description: additional wallpaper plugins for Plasma 5
  This package contains additional Plasma 5 wallpaper plugins that are used in
- the Plasma desktop to give marble, mandelbrot and other such wallpapers.
+ the Plasma desktop.
  .
  This package contains the following wallpaper plugins:
   * Haenau
