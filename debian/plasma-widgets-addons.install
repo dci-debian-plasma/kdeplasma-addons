@@ -18,6 +18,7 @@ usr/lib/*/qt5/qml/org/kde/plasma/private/timer/
 usr/lib/*/qt5/qml/org/kde/plasma/private/weather/
 usr/share/icons/hicolor/scalable/apps/fifteenpuzzle.svgz
 usr/share/kservices5/plasma-applet-org.kde.plasma.activitypager.desktop
+usr/share/kservices5/plasma-applet-org.kde.plasma.binaryclock.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.calculator.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.colorpicker.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.comic.desktop
@@ -39,6 +40,7 @@ usr/share/kservices5/plasma-applet-org.kde.plasma.timer.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.userswitcher.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.weather.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.webbrowser.desktop
+usr/share/metainfo/org.kde.plasma.binaryclock.appdata.xml
 usr/share/metainfo/org.kde.plasma.calculator.appdata.xml
 usr/share/metainfo/org.kde.plasma.colorpicker.appdata.xml
 usr/share/metainfo/org.kde.plasma.comic.appdata.xml
@@ -61,6 +63,7 @@ usr/share/metainfo/org.kde.plasma.weather.appdata.xml
 usr/share/metainfo/org.kde.plasma.webbrowser.appdata.xml
 usr/share/plasma/desktoptheme/default
 usr/share/plasma/plasmoids/org.kde.plasma.activitypager/
+usr/share/plasma/plasmoids/org.kde.plasma.binaryclock/
 usr/share/plasma/plasmoids/org.kde.plasma.calculator/
 usr/share/plasma/plasmoids/org.kde.plasma.colorpicker/
 usr/share/plasma/plasmoids/org.kde.plasma.comic/
