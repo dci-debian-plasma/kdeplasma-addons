@@ -50,7 +50,6 @@ usr/share/metainfo/org.kde.plasma.fuzzyclock.appdata.xml
 usr/share/metainfo/org.kde.plasma.mediaframe.appdata.xml
 usr/share/metainfo/org.kde.plasma.minimizeall.appdata.xml
 usr/share/metainfo/org.kde.plasma.notes.appdata.xml
-usr/share/metainfo/org.kde.plasma.private.grouping.appdata.xml
 usr/share/metainfo/org.kde.plasma.quicklaunch.appdata.xml
 usr/share/metainfo/org.kde.plasma.quickshare.appdata.xml
 usr/share/metainfo/org.kde.plasma.showdesktop.appdata.xml
