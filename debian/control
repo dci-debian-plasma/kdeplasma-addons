@@ -79,6 +79,8 @@ Depends: kdeplasma-addons-data (= ${source:Version}),
          qml-module-org-kde-kcoreaddons,
          qml-module-org-kde-kio,
          qml-module-qtgraphicaleffects,
+         qml-module-qtquick-layouts,
+         qml-module-qtquick-window2,
          qml-module-qtwebkit,
          ${misc:Depends},
          ${shlibs:Depends}
@@ -109,6 +111,8 @@ Package: plasma-dataengines-addons
 Architecture: any
 Depends: kdeplasma-addons-data (= ${source:Version}),
          kross,
+         plasma-framework,
+         qml-module-qtquick-layouts,
          ${misc:Depends},
          ${shlibs:Depends}
 Breaks: plasma-widgets-addons (<< 4:5.9.0)
