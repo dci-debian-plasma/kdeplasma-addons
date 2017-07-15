@@ -48,11 +48,10 @@ usr/share/metainfo/org.kde.plasma.comic.appdata.xml
 usr/share/metainfo/org.kde.plasma.diskquota.appdata.xml
 usr/share/metainfo/org.kde.plasma.fifteenpuzzle.appdata.xml
 usr/share/metainfo/org.kde.plasma.fuzzyclock.appdata.xml
+usr/share/metainfo/org.kde.plasma.grouping.appdata.xml
 usr/share/metainfo/org.kde.plasma.kickerdash.appdata.xml
 usr/share/metainfo/org.kde.plasma.konsoleprofiles.appdata.xml
 usr/share/metainfo/org.kde.plasma.mediaframe.appdata.xml
-usr/share/metainfo/org.kde.plasma.grouping.appdata.xml
-usr/share/metainfo/org.kde.plasma.kickerdash.appdata.xml
 usr/share/metainfo/org.kde.plasma.minimizeall.appdata.xml
 usr/share/metainfo/org.kde.plasma.notes.appdata.xml
 usr/share/metainfo/org.kde.plasma.private.grouping.appdata.xml
