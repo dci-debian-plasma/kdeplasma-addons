@@ -1,10 +1,32 @@
-kdeplasma-addons (4:5.10.3-1~) UNRELEASED; urgency=medium
+kdeplasma-addons (4:5.10.4-1~) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
   * Update plasma-wallpapers-addons package description.
     Thanks to Ralf Jung for reporting (Closes: 861318)
   * New upstream release (5.10.3).
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 4.0.0.
+  * Update upstream metadata
+  * New upstream release (5.10.4).
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jul 2017 11:57:52 +0200
+  [ Jonathan Riddell ]
+  * update watch file to version=4 with pgp signature checking
+  * more qml deps
+  * qmllint
+  * update .install
+  * update .install
+  * update .install
+  * appstream
+  * update .install file
+  * update not-installed
+
+  [ Clive Johnston ]
+  * Wildcarding /usr/share/locale/*/*/*.mo in install file
+
+  [ Rik Mills ]
+  * Install files for binary clock applet
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Aug 2017 13:34:11 +0200
 
 kdeplasma-addons (4:5.8.5-2) unstable; urgency=medium
 
