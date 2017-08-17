@@ -38,7 +38,7 @@ Build-Depends: cmake (>= 2.8.12),
                qtbase5-dev (>= 5.4),
                qtdeclarative5-dev (>= 5.4),
                scim-dev,
-               shared-mime-info
+               shared-mime-info,
 Standards-Version: 4.0.0
 Homepage: https://projects.kde.org/projects/kde/workspace/kdeplasma-addons
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/plasma/kdeplasma-addons.git
@@ -63,7 +63,7 @@ Depends: kdeplasma-addons-data (= ${source:Version}),
          kwin-x11 | kwin,
          plasma-framework,
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Breaks: kwin-data (<< 4:5.1.0.1+git20141031.1444)
 Replaces: kwin-data (<< 4:5.1.0.1+git20141031.1444)
 Description: additional desktop and window switchers for KWin
@@ -71,6 +71,54 @@ Description: additional desktop and window switchers for KWin
  the Plasma 5 addons module.
  .
  This package is part of the KDE Plasma addons module.
+
+Package: plasma-dataengines-addons
+Architecture: any
+Depends: kdeplasma-addons-data (= ${source:Version}),
+         kross,
+         plasma-framework,
+         qml-module-qtquick-layouts,
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: additional data engines for Plasma
+ This package contains additional Plasma data engines shipped in Plasma 5
+ addons module. These engines are needed by some Plasma  5 widget shipped with
+ plasma-widgets-addons, but they may be useful for any other Plasma widgets too.
+ .
+ This package is part of the KDE Plasma addons module.
+
+Package: plasma-runners-addons
+Architecture: any
+Depends: kdeplasma-addons-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: additional runners for Plasma 5 and Krunner
+ This package contains additional Plasma runners that are used in krunner
+ (the "run command" dialog of Plasma) to reveal special search results.
+ If you use krunner a lot, you will probably like this package.
+ .
+ This package contains the following runners:
+  * Dictionary
+  * More coming soon..
+ .
+ This package is part of the KDE Plasma 5 addons module.
+
+Package: plasma-wallpapers-addons
+Architecture: any
+Depends: kdeplasma-addons-data (= ${source:Version}),
+         plasma-framework,
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: additional wallpaper plugins for Plasma 5
+ This package contains additional Plasma 5 wallpaper plugins that are used in
+ the Plasma desktop.
+ .
+ This package contains the following wallpaper plugins:
+  * Haenau
+  * Hunyango
+  * More coming soon..
+ .
+ This package is part of the KDE Plasma 5 addons module.
 
 Package: plasma-widgets-addons
 Architecture: any
@@ -88,7 +136,7 @@ Depends: kdeplasma-addons-data (= ${source:Version}),
          qml-module-qtquick-window2,
          qml-module-qtwebkit,
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Description: additional widgets for Plasma 5
  This package contains additional Plasma 5 widgets shipped in the Plasma
  addons module. Install it if you want a variety of widgets on your Plasma
@@ -106,54 +154,6 @@ Description: additional widgets for Plasma 5
   * Userswitcher
   * Diskquota
   * Activity pager
-  * More coming soon..
- .
- This package is part of the KDE Plasma 5 addons module.
-
-Package: plasma-dataengines-addons
-Architecture: any
-Depends: kdeplasma-addons-data (= ${source:Version}),
-         kross,
-         plasma-framework,
-         qml-module-qtquick-layouts,
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: additional data engines for Plasma
- This package contains additional Plasma data engines shipped in Plasma 5
- addons module. These engines are needed by some Plasma  5 widget shipped with
- plasma-widgets-addons, but they may be useful for any other Plasma widgets too.
- .
- This package is part of the KDE Plasma addons module.
-
-Package: plasma-runners-addons
-Architecture: any
-Depends: kdeplasma-addons-data (= ${source:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: additional runners for Plasma 5 and Krunner
- This package contains additional Plasma runners that are used in krunner
- (the "run command" dialog of Plasma) to reveal special search results.
- If you use krunner a lot, you will probably like this package.
- .
- This package contains the following runners:
-  * Dictionary
-  * More coming soon..
- .
- This package is part of the KDE Plasma 5 addons module.
-
-Package: plasma-wallpapers-addons
-Architecture: any
-Depends: kdeplasma-addons-data (= ${source:Version}),
-         plasma-framework,
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: additional wallpaper plugins for Plasma 5
- This package contains additional Plasma 5 wallpaper plugins that are used in
- the Plasma desktop.
- .
- This package contains the following wallpaper plugins:
-  * Haenau
-  * Hunyango
   * More coming soon..
  .
  This package is part of the KDE Plasma 5 addons module.
