@@ -162,7 +162,7 @@ Description: additional wallpaper plugins for Plasma 5
 
 Package: kdeplasma-addons-dbg
 Section: debug
-Priority: extra
+Priority: optional
 Architecture: any
 Depends: plasma-dataengines-addons (= ${binary:Version}) | plasma-runners-addons (= ${binary:Version}) | plasma-wallpapers-addons (= ${binary:Version}) | plasma-widgets-addons (= ${binary:Version}),
          ${misc:Depends}
@@ -170,3 +170,4 @@ Description: debugging symbols for kdeplasma-addons
  This package contains the debugging symbols associated with kdeplasma-addons
  for kf5. They will automatically be used by gdb for debugging kdeplasma-addons
  related issues.
+
