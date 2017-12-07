@@ -32,7 +32,6 @@ usr/share/kservices5/plasma-applet-org.kde.plasma.fifteenpuzzle.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.fuzzyclock.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.grouping.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.kickerdash.desktop
-usr/share/kservices5/plasma-applet-org.kde.plasma.konsoleprofiles.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.mediaframe.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.minimizeall.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.notes.desktop
@@ -100,3 +99,4 @@ usr/share/plasma/plasmoids/org.kde.plasma.timer/
 usr/share/plasma/plasmoids/org.kde.plasma.userswitcher/
 usr/share/plasma/plasmoids/org.kde.plasma.weather/
 usr/share/plasma/plasmoids/org.kde.plasma.webbrowser/
+usr/share/plasma/plasmoids/org.kde.plasma_applet_dict/
