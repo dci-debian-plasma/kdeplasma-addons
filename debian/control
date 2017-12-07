@@ -33,6 +33,7 @@ Build-Depends: cmake (>= 2.8.12),
                plasma-workspace-dev (>= 4:5.5.1.1~),
                qtbase5-dev (>= 5.4),
                qtdeclarative5-dev (>= 5.4),
+               qtwebengine5-dev,
                shared-mime-info
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/kde/workspace/kdeplasma-addons
