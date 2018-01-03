@@ -1,17 +1,21 @@
 #!/usr/bin/make -f
 
 l10npkgs_firstversion_ok := 4:4.14.0-2
-
-include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 include /usr/share/pkg-kde-tools/qt-kde-team/2/l10n-packages.mk
+
+%:
+	dh $@ --with kf5,pkgkde_symbolshelper --buildsystem kf5
 
 override_dh_auto_test:
 	# Disable dh_auto_test at build time
 	:
 
 override_dh_strip:
-	$(overridden_command) --dbgsym-migration='kdeplasma-addons-dbg (<= 4:5.5.5-1~~)'
+	dh_strip --dbgsym-migration='kdeplasma-addons-dbg (<= 4:5.5.5-1~~)'
 
 override_dh_auto_clean:
-	$(overridden_command)
+	dh_auto_clean
 	find applets/lancelot/tools/puck -name *.pyc -delete || true
+
+override_dh_gencontrol: l10npkgs_firstversion_ok
+	dh_gencontrol
