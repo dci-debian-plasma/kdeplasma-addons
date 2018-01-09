@@ -83,6 +83,7 @@ Depends: kdeplasma-addons-data (= ${source:Version}),
          qml-module-qtgraphicaleffects,
          qml-module-qtquick-layouts,
          qml-module-qtquick-window2,
+         qml-module-qtwebengine,
          qml-module-qtwebkit,
          ${misc:Depends},
          ${shlibs:Depends}
@@ -171,4 +172,3 @@ Description: debugging symbols for kdeplasma-addons
  This package contains the debugging symbols associated with kdeplasma-addons
  for kf5. They will automatically be used by gdb for debugging kdeplasma-addons
  related issues.
-
