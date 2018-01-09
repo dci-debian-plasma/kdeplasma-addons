@@ -10,7 +10,7 @@ override_dh_auto_test:
 	:
 
 override_dh_strip:
-	$(overridden_command) --dbg-package=kdeplasma-addons-dbg
+	$(overridden_command) --dbgsym-migration='kdeplasma-addons-dbg (<= 4:5.11.5-0neon)'
 
 override_dh_auto_clean:
 	$(overridden_command)
