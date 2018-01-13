@@ -1,7 +1,7 @@
 plasma-widgets-addons: hardening-no-fortify-functions usr/lib/kde4/plasma_applet_icontasks.so
 plasma-widgets-addons: hardening-no-fortify-functions usr/lib/kde4/plasma_applet_life.so
 plasma-widgets-addons: hardening-no-fortify-functions usr/lib/kde4/plasma_applet_qalculate.so
-plasma-widgets-addons: package-name-doesnt-match-sonames libplasmaweather1
 plasma-widgets-addons: postinst-must-call-ldconfig usr/lib/*libplasmaweatherprivate.so
 plasma-widgets-addons: package-name-doesnt-match-sonames libplasmaweatherprivate
 plasma-widgets-addons: shlib-without-versioned-soname usr/lib/*/libplasmaweatherprivate.so libplasmaweatherprivate.so
+plasma-widgets-addons: package-must-activate-ldconfig-trigger usr/lib/*/libplasmaweatherprivate.so
