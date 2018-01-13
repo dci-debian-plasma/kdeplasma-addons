@@ -1,6 +1,5 @@
 etc/xdg/comic.knsrc
-usr/lib/*/libplasmaweather.so.1
-usr/lib/*/libplasmaweather.so.2.0.0
+usr/lib/*/libplasmaweatherprivate.so
 usr/lib/*/qt5/plugins/plasma/applets/org.kde.plasma.grouping.so
 usr/lib/*/qt5/plugins/plasma/applets/org.kde.plasma.private.grouping.so
 usr/lib/*/qt5/plugins/plasma/applets/plasma_applet_comic.so
