@@ -38,6 +38,7 @@ Build-Depends: cmake (>= 2.8.12),
                plasma-workspace-dev (>= 4:5.7~),
                qtbase5-dev (>= 5.9.0~),
                qtdeclarative5-dev (>= 5.9.0~),
+               qtwebengine5-dev (>= 5.9.0~),
                scim-dev,
                shared-mime-info,
 Standards-Version: 4.1.3
