@@ -1,11 +1,11 @@
 etc/xdg/comic.knsrc
-usr/lib/*/libplasmaweather.so.1
-usr/lib/*/libplasmaweather.so.2.*
+usr/lib/*/libplasmaweatherprivate.so
 usr/lib/*/qt5/plugins/plasma/applets/org.kde.plasma.grouping.so
 usr/lib/*/qt5/plugins/plasma/applets/org.kde.plasma.private.grouping.so
 usr/lib/*/qt5/plugins/plasma/applets/plasma_applet_comic.so
 usr/lib/*/qt5/plugins/plasma/applets/plasma_applet_weather.so
 usr/lib/*/qt5/qml/org/kde/plasma/private/colorpicker/
+usr/lib/*/qt5/qml/org/kde/plasma/private/dict/
 usr/lib/*/qt5/qml/org/kde/plasma/private/diskquota/
 usr/lib/*/qt5/qml/org/kde/plasma/private/fifteenpuzzle/
 usr/lib/*/qt5/qml/org/kde/plasma/private/mediaframe/
@@ -16,6 +16,7 @@ usr/lib/*/qt5/qml/org/kde/plasma/private/quicklaunch/
 usr/lib/*/qt5/qml/org/kde/plasma/private/showdesktop/
 usr/lib/*/qt5/qml/org/kde/plasma/private/timer/
 usr/lib/*/qt5/qml/org/kde/plasma/private/weather/
+usr/share/icons/hicolor/scalable/apps/accessories-dictionary.svgz
 usr/share/icons/hicolor/scalable/apps/fifteenpuzzle.svgz
 usr/share/kservices5/plasma-applet-org.kde.plasma.activitypager.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.binaryclock.desktop
@@ -27,7 +28,6 @@ usr/share/kservices5/plasma-applet-org.kde.plasma.fifteenpuzzle.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.fuzzyclock.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.grouping.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.kickerdash.desktop
-usr/share/kservices5/plasma-applet-org.kde.plasma.konsoleprofiles.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.mediaframe.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.minimizeall.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.notes.desktop
@@ -40,6 +40,7 @@ usr/share/kservices5/plasma-applet-org.kde.plasma.timer.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.userswitcher.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.weather.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.webbrowser.desktop
+usr/share/kservices5/plasma-applet-org.kde.plasma_applet_dict.desktop
 usr/share/metainfo/org.kde.plasma.activitypager.appdata.xml
 usr/share/metainfo/org.kde.plasma.binaryclock.appdata.xml
 usr/share/metainfo/org.kde.plasma.calculator.appdata.xml
@@ -50,7 +51,6 @@ usr/share/metainfo/org.kde.plasma.fifteenpuzzle.appdata.xml
 usr/share/metainfo/org.kde.plasma.fuzzyclock.appdata.xml
 usr/share/metainfo/org.kde.plasma.grouping.appdata.xml
 usr/share/metainfo/org.kde.plasma.kickerdash.appdata.xml
-usr/share/metainfo/org.kde.plasma.konsoleprofiles.appdata.xml
 usr/share/metainfo/org.kde.plasma.mediaframe.appdata.xml
 usr/share/metainfo/org.kde.plasma.minimizeall.appdata.xml
 usr/share/metainfo/org.kde.plasma.notes.appdata.xml
@@ -62,6 +62,7 @@ usr/share/metainfo/org.kde.plasma.timer.appdata.xml
 usr/share/metainfo/org.kde.plasma.userswitcher.appdata.xml
 usr/share/metainfo/org.kde.plasma.weather.appdata.xml
 usr/share/metainfo/org.kde.plasma.webbrowser.appdata.xml
+usr/share/metainfo/org.kde.plasma_applet_dict.appdata.xml
 usr/share/plasma/desktoptheme/default
 usr/share/plasma/plasmoids/org.kde.plasma.activitypager/
 usr/share/plasma/plasmoids/org.kde.plasma.binaryclock/
@@ -73,7 +74,6 @@ usr/share/plasma/plasmoids/org.kde.plasma.fifteenpuzzle/
 usr/share/plasma/plasmoids/org.kde.plasma.fuzzyclock/
 usr/share/plasma/plasmoids/org.kde.plasma.grouping/
 usr/share/plasma/plasmoids/org.kde.plasma.kickerdash/
-usr/share/plasma/plasmoids/org.kde.plasma.konsoleprofiles/
 usr/share/plasma/plasmoids/org.kde.plasma.mediaframe/
 usr/share/plasma/plasmoids/org.kde.plasma.minimizeall/
 usr/share/plasma/plasmoids/org.kde.plasma.notes/
@@ -86,3 +86,4 @@ usr/share/plasma/plasmoids/org.kde.plasma.timer/
 usr/share/plasma/plasmoids/org.kde.plasma.userswitcher/
 usr/share/plasma/plasmoids/org.kde.plasma.weather/
 usr/share/plasma/plasmoids/org.kde.plasma.webbrowser/
+usr/share/plasma/plasmoids/org.kde.plasma_applet_dict/
