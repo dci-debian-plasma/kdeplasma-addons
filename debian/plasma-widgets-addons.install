@@ -28,6 +28,7 @@ usr/share/kservices5/plasma-applet-org.kde.plasma.fifteenpuzzle.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.fuzzyclock.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.grouping.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.kickerdash.desktop
+usr/share/kservices5/plasma-applet-org.kde.plasma.konsoleprofiles.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.mediaframe.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.minimizeall.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.notes.desktop
@@ -51,6 +52,7 @@ usr/share/metainfo/org.kde.plasma.fifteenpuzzle.appdata.xml
 usr/share/metainfo/org.kde.plasma.fuzzyclock.appdata.xml
 usr/share/metainfo/org.kde.plasma.grouping.appdata.xml
 usr/share/metainfo/org.kde.plasma.kickerdash.appdata.xml
+usr/share/metainfo/org.kde.plasma.konsoleprofiles.appdata.xml
 usr/share/metainfo/org.kde.plasma.mediaframe.appdata.xml
 usr/share/metainfo/org.kde.plasma.minimizeall.appdata.xml
 usr/share/metainfo/org.kde.plasma.notes.appdata.xml
@@ -74,6 +76,7 @@ usr/share/plasma/plasmoids/org.kde.plasma.fifteenpuzzle/
 usr/share/plasma/plasmoids/org.kde.plasma.fuzzyclock/
 usr/share/plasma/plasmoids/org.kde.plasma.grouping/
 usr/share/plasma/plasmoids/org.kde.plasma.kickerdash/
+usr/share/plasma/plasmoids/org.kde.plasma.konsoleprofiles/
 usr/share/plasma/plasmoids/org.kde.plasma.mediaframe/
 usr/share/plasma/plasmoids/org.kde.plasma.minimizeall/
 usr/share/plasma/plasmoids/org.kde.plasma.notes/
